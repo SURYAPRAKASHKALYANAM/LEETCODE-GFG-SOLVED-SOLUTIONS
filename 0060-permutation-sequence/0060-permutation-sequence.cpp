@@ -3,14 +3,23 @@ public:
     string getPermutation(int n, int k)
     {
         string a="";
-        for(int c=1;c<=n;c++) a+=to_string(c);
-        while(k!=1)
+        vector<int> ns;
+        int f=1;
+        for(int i=1;i<n;i++)
         {
-            k--;
-            next_permutation(a.begin(),a.end());
+            f*=i;
+            ns.emplace_back(i);
         }
-        
-        
+        ns.emplace_back(n);
+        k--;
+        while(true)
+        {
+            a+=to_string(ns[k/f]);
+            ns.erase(ns.begin()+k/f);
+            if(ns.size()==0) break; 
+            k=k%f;
+            f=f/ns.size();
+        }
         return a;
         
     }
