@@ -82,14 +82,14 @@ class Solution
     void deleteNode(Node *del)
     {
        // Your code here
-       Node* ptr;
+       Node *del1;
        while(del->next!=NULL)
        {
            del->data=del->next->data;
-           ptr=del;
+           del1=del;
            del=del->next;
        }
-       ptr->next=NULL;
+       del1->next=NULL;
     }
 
 };
