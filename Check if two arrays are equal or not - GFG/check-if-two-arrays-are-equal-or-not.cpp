@@ -15,14 +15,12 @@ class Solution{
     bool check(vector<ll> A, vector<ll> B, int N) 
     {
         //code here
-        unordered_map<int,int> m;
-        for(auto i:A) m[i]++;
-        for(auto i:B) m[i]--;
-        for(auto i:m)
-        {
-            if(i.second!=0) return false;
-        }
-        return true;
+        unordered_map<long long int,long long int> m1,m2;
+        for(long long int i=0;i<A.size();i++) m1[A[i]]++;
+        for(long long int i=0;i<B.size();i++) m2[B[i]]++;
+        for(long long int i=0;i<A.size();i++)
+            if(m1[A[i]]!=m2[A[i]]) return 0;
+        return 1;
     }
 };
 
