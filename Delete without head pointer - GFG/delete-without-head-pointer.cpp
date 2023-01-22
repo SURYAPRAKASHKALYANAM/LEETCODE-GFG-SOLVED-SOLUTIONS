@@ -81,15 +81,10 @@ class Solution
     //Function to delete a node without any reference to head pointer.
     void deleteNode(Node *del)
     {
-       // Your code here
-       Node *del1;
-       while(del->next!=NULL)
-       {
-           del->data=del->next->data;
-           del1=del;
-           del=del->next;
-       }
-       del1->next=NULL;
+       del->data=del->next->data;
+       if(del->next) del->next=del->next->next;
+       else del->next=NULL;
+       
     }
 
 };
