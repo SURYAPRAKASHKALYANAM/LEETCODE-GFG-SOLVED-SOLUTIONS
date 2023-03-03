@@ -1,30 +1,23 @@
-class Solution {
-public:
-    vector<int> productExceptSelf(vector<int>& nums) 
-    {
-       vector<int> ans(nums.size(),0);
-        long long mul=1,z=0;
-        for(auto i:nums)
+class Solution
+{
+    public:
+        vector<int> productExceptSelf(vector<int> &nums)
         {
-            if(i!=0) mul*=i;
-            else z++;
-        }
-        if(z>1) return ans;
-        else
-        {
-            if(z==1)
+            int pre[nums.size()], post[nums.size()];
+            memset(pre, 1, nums.size());
+            memset(post, 1, nums.size());
+            int n = nums.size();
+            pre[0] = nums[0];
+            post[n - 1] = nums[n - 1];
+            for (int i = 1; i < n; i++)
             {
-                for(auto i=0;i<nums.size();i++)
-                    if(nums[i]==0) ans[i]=mul;
-                return ans;
+                pre[i] = pre[i - 1] *nums[i];
+                post[n - i - 1] = post[n - i] *nums[n - i - 1];
             }
-            for(auto i=0;i<nums.size();i++)
-            {
-                if(nums[i]==0) ans[i]=mul;
-                else ans[i]=mul/nums[i];
-            }
+            vector<int> ans(n, 0);
+            ans[0] = post[1];
+            ans[n - 1] = pre[n - 2];
+            for (int i = 1; i < n - 1; i++) ans[i] = pre[i - 1] *post[i + 1];
+            return ans;
         }
-        return ans;
-        
-    }
 };
