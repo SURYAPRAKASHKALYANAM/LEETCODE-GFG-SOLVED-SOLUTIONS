@@ -6,7 +6,7 @@ class Solution
             int ans = 0;
             for (auto i = 0; i < s.size(); i++)
             {
-                ans=max(ans,s[i]-'0');
+                ans = max(ans, s[i] - '0');
             }
             return ans;
         }
