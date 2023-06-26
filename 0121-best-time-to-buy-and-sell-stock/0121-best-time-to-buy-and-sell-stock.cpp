@@ -7,10 +7,11 @@ class Solution
             int minimalprice = prices[0];
             for (int i = 1; i < prices.size(); i++)
             {
-                dif = prices[i] - minimalprice;
-                ans = max(ans, dif);
-                minimalprice=min(prices[i],minimalprice);
+                dif = prices[i] - minimalprice;	//find the cost of stocks
+                ans = max(ans, dif);	// keep track of max profit
+                minimalprice = min(prices[i], minimalprice);
             }
-            return (ans<0)?0:ans;
+           	//return max profit 
+            return (ans < 0) ? 0 : ans;
         }
 };
