@@ -17,7 +17,7 @@ class Solution
                 {
                     if (nums[j][0] <= end) end = max(end, nums[j][1]);
                 }
-                end = max(end, nums[i][1]);
+                // end = max(end, nums[i][1]);
                 sol.emplace_back(std::vector<int>{start,end});
             }
             return sol;
