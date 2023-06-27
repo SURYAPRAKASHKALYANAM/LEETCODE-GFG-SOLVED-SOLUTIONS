@@ -16,8 +16,8 @@ class Solution
                 for (int j = i + 1; j < nums.size(); j++)
                 {
                     if (nums[j][0] <= end) end = max(end, nums[j][1]);
+                    else break;
                 }
-                // end = max(end, nums[i][1]);
                 sol.emplace_back(std::vector<int>{start,end});
             }
             return sol;
