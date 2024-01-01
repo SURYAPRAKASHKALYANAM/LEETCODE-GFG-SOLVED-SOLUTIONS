@@ -10,21 +10,13 @@
 class Solution
 {
     public:
-        bool have(TreeNode *node, TreeNode *p)
+        TreeNode* lowestCommonAncestor(TreeNode *root, TreeNode *p, TreeNode *q)
         {
-            if (node == NULL) return false;
-            if (node->left == NULL && node->right == NULL) return node->val == p->val;
-            if (node->val == p->val) return true;
-            return have(node->left, p) || have(node->right, p);
+            if (root == NULL || root == p || root == q) return root;
+            TreeNode *left = lowestCommonAncestor(root->left, p, q);
+            TreeNode *right = lowestCommonAncestor(root->right, p, q);
+            if (!left) return right;
+            else if (!right) return left;
+            else return root;
         }
-    TreeNode* lowestCommonAncestor(TreeNode *root, TreeNode *p, TreeNode *q)
-    {
-        if (!root) return NULL;
-        TreeNode *ancl = lowestCommonAncestor(root->left, p, q);
-        if (ancl) return ancl;
-        ancl = lowestCommonAncestor(root->right, p, q);
-        if (ancl) return ancl;
-        if (have(root, p) && have(root, q)) return root;
-        return NULL;
-    }
 };
