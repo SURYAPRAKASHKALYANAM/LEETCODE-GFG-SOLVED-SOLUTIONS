@@ -21,5 +21,18 @@ class Solution
                 ans += (counts[i - 1] *counts[i]);
             }
             return ans;
+            
+            //OPTIMAL SOLUTION SPACE O(1)
+            // int res=0,prev=0,cnt;
+            // for(auto i:bank)
+            // {
+            //     cnt=count(begin(i),end(i),'1');
+            //     if(cnt)
+            //     {
+            //         res+=prev*cnt;
+            //         prev=cnt;
+            //     }
+            // }
+            // return res;
         }
 };
