@@ -11,10 +11,7 @@ class Solution
                 k = i.second;
                 if (k == 1) return -1;
                 if (k % 3 == 0) cnt += (k / 3);
-                else if (k % 3 == 1 || k % 3 == 2)
-                {
-                    cnt += (k / 3) + 1;
-                }
+                else if (k % 3 == 1 || k % 3 == 2) cnt += (k / 3) + 1;
             }
             return cnt;
         }
