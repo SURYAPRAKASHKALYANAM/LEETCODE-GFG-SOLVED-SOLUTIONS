@@ -34,7 +34,7 @@ class Solution
             {
                 return NodeValue(max(right.max, root->val), min(left.min, root->val),root->val + left.sum + right.sum,max(rmax,root->val + left.sum + right.sum));
             }
-            return NodeValue(INT_MAX, INT_MIN, max(0,max(left.sum, right.sum)),rmax);
+            return NodeValue(INT_MAX, INT_MIN, max(left.sum, right.sum),rmax);
         }
     int maxSumBST(TreeNode *root)
     {
