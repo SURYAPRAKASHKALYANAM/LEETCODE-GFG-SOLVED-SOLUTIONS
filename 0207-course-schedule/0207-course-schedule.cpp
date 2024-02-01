@@ -13,19 +13,19 @@ public:
             {
                 if (indegree[i] == 0) q.push(i);
             }
-            vector<int> topo;
+            int cnt=0;
             while (!q.empty())
             {
                 int node = q.front();
                 q.pop();
-                topo.emplace_back(node);
+                cnt++;
                 for (auto next: adj[node])
                 {
                     indegree[next]--;
                     if (indegree[next] == 0) q.push(next);
                 }
             }
-            if (topo.size() == numCourses) return true;
+            if (cnt == numCourses) return true;
             return false; 
     }
 };
