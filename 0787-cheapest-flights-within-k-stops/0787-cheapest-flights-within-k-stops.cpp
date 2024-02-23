@@ -21,7 +21,7 @@ public:
             {
                 if(node==destination) mindis=min(mindis,dis);
             }
-            if(steps==k+1) continue;
+            if(steps>k+1) continue;
             for(auto next:adj[node])
             {
                 int adjwt=next.second;
