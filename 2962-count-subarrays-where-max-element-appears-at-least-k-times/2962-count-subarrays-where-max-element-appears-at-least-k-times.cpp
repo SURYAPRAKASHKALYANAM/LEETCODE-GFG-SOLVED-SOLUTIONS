@@ -7,7 +7,7 @@ public:
         while(right<n)
         {
             if(nums[right]==max_ele) count++;
-            while(count>=k)
+            while(count==k)
             {
                 if(nums[left]==max_ele) count--;
                 left++;
