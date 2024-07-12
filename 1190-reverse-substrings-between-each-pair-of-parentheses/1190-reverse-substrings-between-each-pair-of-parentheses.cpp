@@ -3,6 +3,7 @@ class Solution
     public:
         string reverseParentheses(string s)
         {
+            // #notes
             stack<char> st;
             int begin = 0, end = s.size() - 1;
             string ans = "", first = "", last = "", str = "";
