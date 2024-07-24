@@ -20,7 +20,6 @@ public:
         }
         for(auto i:m)
         {
-            cout<<i.first<<" ";
             for(auto j:i.second) finall.emplace_back(j);
         }
         return finall;
