@@ -22,10 +22,11 @@ class Solution
                 }
             }
             int cnt_max = INT_MAX, node = -1;
-            for (int i = 0; i < V; i++)
+            for(int i = 0; i < V; i++)
             {
                 int cnt = 0;
-                for (int j = 0; j < V; j++)
+                
+                for(int j = 0; j < V; j++)
                 {
                     if (matrix[i][j] <= distanceThreshold && i != j) cnt++;
                 }
