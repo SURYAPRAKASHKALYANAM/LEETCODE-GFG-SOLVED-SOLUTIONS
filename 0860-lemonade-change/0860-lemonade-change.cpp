@@ -3,10 +3,10 @@ class Solution
     public:
         bool lemonadeChange(vector<int> &bills)
         {
-            int tens = 0, fives = 0, twenties = 0;
+            int tens = 0, fives = 0;
             for (auto i: bills)
             {
-                (i == 5) ? fives++ : ((i == 10) ? tens++ : twenties++);
+                (i == 5) ? fives++ : ((i == 10) ? tens++ :tens );
                 if (i == 20)
                 {
                     if (tens && fives) tens--, fives--;
