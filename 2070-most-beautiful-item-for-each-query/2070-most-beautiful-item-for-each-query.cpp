@@ -5,11 +5,11 @@ class Solution
         {
             sort(items.begin(), items.end());
             unordered_map<int, int> m;
-            int maxi=0;
+            int maxi = 0;
             for (auto i: items)
             {
                 maxi = max(maxi, i[1]);
-                m[i[0]]=maxi;
+                m[i[0]] = maxi;
             }
             vector<int> ans(queries.size(), 0);
             for (auto i = 0; i < queries.size(); i++)
@@ -18,28 +18,26 @@ class Solution
                 {
                     if (queries[i] < items[0][0]) continue;
                     int start = 0, end = items.size(), target = queries[i], mid;
-                    bool find=1;
+                    bool find = 1;
                     while (start < end)
                     {
                         mid = (start + end) / 2;
-                        if(mid-1>=0 && (items[mid-1][0]<target && items[mid][0]>target))
+                        if (mid - 1 >= 0 && (items[mid - 1][0] < target && items[mid][0] > target))
                         {
-                            ans[i] = m[items[mid-1][0]];
-                            find=0;
+                            ans[i] = m[items[mid - 1][0]];
+                            find = 0;
                             break;
                         }
-                        if(mid+1<items.size() && (items[mid][0]<target && items[mid+1][0]>target))
+                        if (mid + 1 < items.size() && (items[mid][0] < target && items[mid + 1][0] > target))
                         {
                             ans[i] = m[items[mid][0]];
-                            find=0;
+                            find = 0;
                             break;
                         }
-                        if (items[mid][0] > target) end = mid-1;
+                        if (items[mid][0] > target) end = mid - 1;
                         else start = mid + 1;
                     }
-                    // mid = (start + end) / 2;
-                    // cout<<start<<" "<<end<<endl;
-                    if(find) ans[i] = m[items[mid][0]];
+                    if (find) ans[i] = m[items[mid][0]];
                     continue;
                 }
                 ans[i] = m[queries[i]];
@@ -47,14 +45,47 @@ class Solution
             return ans;
         }
 };
-/*
-[[743,617],[773,350],[937,643],[395,585],[126,690],[284,656],[999,401],[239,316],[214,811],[269,539],[693,633],[653,801],[108,465],[383,169],[676,956],[155,329],[872,275],[510,557],[423,169]]
-[506,294,743,203,553,1790,588,1550,1007,1946,1263,1544]
-[[1,2],[3,2],[2,4],[5,6],[3,5]]
-[1,2,3,4,5,6]
-[[1,2],[1,2],[1,3],[1,4]]
-[1]
-[[10,1000]]
-[5]
-[[1,1],[1,1000000000],[1,1000000000]]
-[1000000000]*/
+/* OPTIMAL SOLUTION
+class Solution {
+public:
+    vector<int> maximumBeauty(vector<vector<int>>& items, vector<int>& queries) {
+        sort(items.begin(),items.end());
+        int n = items.size();
+        vector<int> maxBeauty(n),prices(n);
+        maxBeauty[0] = items[0][1];
+        prices[0] = items[0][0];
+        for(int i =1;i<n;i++) {
+            prices[i] = items[i][0];
+            maxBeauty[i] = max(maxBeauty[i-1],items[i][1]);
+        }
+        int m = queries.size();
+        vector<int> ans(m);
+        for(int i = 0;i<m;i++) {
+            int idx = bs(prices,queries[i]);
+            if(idx == -1) {
+                ans[i] = 0;
+            }
+            else {
+                ans[i] = maxBeauty[idx];
+            }
+        }
+        return ans;
+    }
+
+    int bs(vector<int>& prices,int target) {
+        int low = 0;
+        int high = prices.size() - 1;
+        int result = -1;
+        while(low <= high) {
+            int mid = low + (high -low) / 2;
+            if(prices[mid] <= target) {
+                result = mid;
+                low = mid +1;
+            }
+            else {
+                high = mid - 1;
+            }
+        }
+        return result;
+    }
+};*/
