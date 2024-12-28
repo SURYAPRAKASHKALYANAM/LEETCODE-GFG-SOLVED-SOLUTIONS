@@ -16,4 +16,20 @@
 |  |
 | ------- |
 | [1304-longest-happy-string](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1304-longest-happy-string) |
+## Tree
+|  |
+| ------- |
+| [0515-find-largest-value-in-each-tree-row](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/0515-find-largest-value-in-each-tree-row) |
+## Depth-First Search
+|  |
+| ------- |
+| [0515-find-largest-value-in-each-tree-row](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/0515-find-largest-value-in-each-tree-row) |
+## Breadth-First Search
+|  |
+| ------- |
+| [0515-find-largest-value-in-each-tree-row](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/0515-find-largest-value-in-each-tree-row) |
+## Binary Tree
+|  |
+| ------- |
+| [0515-find-largest-value-in-each-tree-row](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/0515-find-largest-value-in-each-tree-row) |
 <!---LeetCode Topics End-->
