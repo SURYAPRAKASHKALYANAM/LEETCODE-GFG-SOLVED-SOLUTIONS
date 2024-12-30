@@ -36,4 +36,8 @@
 |  |
 | ------- |
 | [0007-reverse-integer](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/0007-reverse-integer) |
+## Dynamic Programming
+|  |
+| ------- |
+| [2562-count-ways-to-build-good-strings](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/2562-count-ways-to-build-good-strings) |
 <!---LeetCode Topics End-->
