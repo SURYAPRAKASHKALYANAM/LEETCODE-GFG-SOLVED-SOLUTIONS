@@ -13,8 +13,6 @@ public:
             int beg = q[0] - 1, end = q[1];
             if (beg < 0)
                 ans.emplace_back(pref[end]);
-            else if (end > n - 1)
-                ans.emplace_back(pref[end - 1] - pref[beg]);
             else
                 ans.emplace_back(pref[end] - pref[beg]);
         }
