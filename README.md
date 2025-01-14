@@ -71,6 +71,7 @@
 | [2292-counting-words-with-a-given-prefix](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/2292-counting-words-with-a-given-prefix) |
 | [2358-number-of-ways-to-split-array](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/2358-number-of-ways-to-split-array) |
 | [2691-count-vowel-strings-in-ranges](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/2691-count-vowel-strings-in-ranges) |
+| [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 ## Hash Table
 |  |
@@ -80,6 +81,7 @@
 | [1468-check-if-n-and-its-double-exist](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1502-construct-k-palindrome-strings](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1502-construct-k-palindrome-strings) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/2059-unique-length-3-palindromic-subsequences) |
+| [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 ## Two Pointers
 |  |
 | ------- |
@@ -113,6 +115,7 @@
 |  |
 | ------- |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/2059-unique-length-3-palindromic-subsequences) |
+| [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 ## Geometry
 |  |
 | ------- |
