@@ -1,49 +1,41 @@
-class Disjointset{
-    vector<int> parent,rank;
-    public:
-    Disjointset(int n)
-    {
-        parent.resize(n+1);
-        for(int i=0;i<=n;i++)
-        {
-            parent[i]=i;
-        }
-        rank.resize(n+1,0);
+class DisJointSet {
+public:
+    vector<int> parent, rank;
+    DisJointSet(int n) {
+        parent.resize(n + 1);
+        rank.resize(n + 1, 0);
+        for (int i = 0; i <= n; i++)
+            parent[i] = i;
     }
-    int ultiamteParent(int node)
-    {
-        if(node==parent[node]) return node;
-        return parent[node]=ultiamteParent(parent[node]);
+    int UltimateParent(int node) {
+        if (parent[node] == node)
+            return node;
+        return parent[node] = UltimateParent(parent[node]);
     }
-    void unionFind(int u,int v)
-    {
-        int ultiamteParent_u=ultiamteParent(u);
-        int ultiamteParent_v=ultiamteParent(v);
-        if(ultiamteParent_u==ultiamteParent_v) return;
-        if(rank[ultiamteParent_u]>rank[ultiamteParent_v])
-        {
-            parent[ultiamteParent_v]=ultiamteParent_u;
+    bool UnioFindByRank(int u, int v) {
+        int ultimate_parent_u = UltimateParent(u);
+        int ultimate_parent_v = UltimateParent(v);
+        if (ultimate_parent_v == ultimate_parent_u)
+            return false;
+        if (rank[ultimate_parent_u] > rank[ultimate_parent_v]) {
+            parent[ultimate_parent_v] = ultimate_parent_u;
+            rank[ultimate_parent_u]++;
+        } else {
+            parent[ultimate_parent_u] = ultimate_parent_v;
+            rank[ultimate_parent_v]++;
         }
-        else if(rank[ultiamteParent_u]<rank[ultiamteParent_v])
-        {
-            parent[ultiamteParent_u]=ultiamteParent_v;
-        }
-        else
-        {
-            parent[ultiamteParent_u]=ultiamteParent_v;
-            rank[ultiamteParent_u]++;
-        }
+        return true;
     }
 };
 class Solution {
 public:
     vector<int> findRedundantConnection(vector<vector<int>>& edges) {
-        Disjointset dis(1000);
         vector<int> ans;
-        for(auto i:edges)
-        {
-            if(dis.ultiamteParent(i[0])!=dis.ultiamteParent(i[1])) dis.unionFind(i[0],i[1]);
-            else ans=i;
+        int n = edges.size();
+        DisJointSet ds = DisJointSet(n);
+        for (auto i : edges) {
+            if (!ds.UnioFindByRank(i[0], i[1]))
+                ans = i;
         }
         return ans;
     }
