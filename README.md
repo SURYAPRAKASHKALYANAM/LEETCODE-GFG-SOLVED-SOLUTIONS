@@ -121,6 +121,7 @@
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 | [3372-longest-strictly-increasing-or-strictly-decreasing-subarray](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/3372-longest-strictly-increasing-or-strictly-decreasing-subarray) |
 | [3429-special-array-i](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/3429-special-array-i) |
+| [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 ## Hash Table
 |  |
 | ------- |
@@ -134,6 +135,7 @@
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2685-first-completely-painted-row-or-column](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/2685-first-completely-painted-row-or-column) |
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
+| [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 | [3502-count-substrings-with-k-frequency-characters-i](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/3502-count-substrings-with-k-frequency-characters-i) |
 ## Two Pointers
 |  |
@@ -242,6 +244,7 @@
 |  |
 | ------- |
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/2343-count-unguarded-cells-in-the-grid) |
+| [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 ## Union Find
 |  |
 | ------- |
