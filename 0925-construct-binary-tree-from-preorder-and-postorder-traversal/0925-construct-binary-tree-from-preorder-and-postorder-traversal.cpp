@@ -12,6 +12,7 @@
  */
 class Solution {
 public:
+    // Referred solution
     int pre = 0, pos = 0;
     TreeNode* constructFromPrePost(vector<int>& preorder,
                                    vector<int>& postorder) {
