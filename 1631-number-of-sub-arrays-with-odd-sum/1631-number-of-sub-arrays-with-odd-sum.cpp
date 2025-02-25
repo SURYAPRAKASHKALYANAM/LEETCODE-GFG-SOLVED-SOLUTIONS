@@ -2,12 +2,12 @@ class Solution {
 public:
     int numOfSubarrays(vector<int>& arr) {
         int n = arr.size();
-        vector<int> pref(n, 0), odd(n, 0);
-        pref[0] = arr[0];
-        int oddcnt = odd[0] = arr[0] & 1;
-        for (int i = 1; i < n; i++) {
-            pref[i] += pref[i - 1] + arr[i];
-            oddcnt += (odd[i] = pref[i] & 1);
+        vector<int> odd(n, 0);
+        int sum = 0;
+        int oddcnt = 0;
+        for (int i = 0; i < n; i++) {
+            sum+=arr[i];
+            oddcnt += (odd[i] = sum & 1);
         }
         int evencnt = n - oddcnt;
         int ans = oddcnt, mod = 1e9 + 7;
