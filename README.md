@@ -62,6 +62,7 @@
 | [0543-diameter-of-binary-tree](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/0543-diameter-of-binary-tree) |
 | [0654-maximum-binary-tree](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/0654-maximum-binary-tree) |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
+| [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 ## Depth-First Search
@@ -79,6 +80,7 @@
 | [0801-is-graph-bipartite](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/0801-is-graph-bipartite) |
 | [0820-find-eventual-safe-states](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/0820-find-eventual-safe-states) |
 | [0854-making-a-large-island](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/0854-making-a-large-island) |
+| [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 | [1396-count-servers-that-communicate](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1396-count-servers-that-communicate) |
@@ -96,6 +98,7 @@
 | [0801-is-graph-bipartite](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/0801-is-graph-bipartite) |
 | [0820-find-eventual-safe-states](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/0820-find-eventual-safe-states) |
 | [0854-making-a-large-island](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/0854-making-a-large-island) |
+| [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 | [1396-count-servers-that-communicate](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1396-count-servers-that-communicate) |
 | [1558-course-schedule-iv](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1558-course-schedule-iv) |
@@ -112,6 +115,7 @@
 | [0543-diameter-of-binary-tree](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/0543-diameter-of-binary-tree) |
 | [0654-maximum-binary-tree](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/0654-maximum-binary-tree) |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
+| [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 ## Math
@@ -199,6 +203,7 @@
 | [0829-subdomain-visit-count](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/0829-subdomain-visit-count) |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [0952-word-subsets](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/0952-word-subsets) |
+| [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1160-letter-tile-possibilities](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1160-letter-tile-possibilities) |
 | [1364-tuple-with-same-product](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1364-tuple-with-same-product) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
@@ -233,6 +238,7 @@
 ## Sorting
 |  |
 | ------- |
+| [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1482-how-many-numbers-are-smaller-than-the-current-number](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1482-how-many-numbers-are-smaller-than-the-current-number) |
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
