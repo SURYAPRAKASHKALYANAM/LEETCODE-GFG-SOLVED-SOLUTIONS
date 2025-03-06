@@ -416,6 +416,7 @@
 | ------- |
 | [0025-reverse-nodes-in-k-group](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/0025-reverse-nodes-in-k-group) |
 | [0146-lru-cache](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/0146-lru-cache) |
+| [0237-delete-node-in-a-linked-list](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/0237-delete-node-in-a-linked-list) |
 ## Doubly-Linked List
 |  |
 | ------- |
