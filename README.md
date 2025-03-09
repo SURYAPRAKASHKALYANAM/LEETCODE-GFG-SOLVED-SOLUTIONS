@@ -202,6 +202,7 @@
 | [3372-longest-strictly-increasing-or-strictly-decreasing-subarray](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/3372-longest-strictly-increasing-or-strictly-decreasing-subarray) |
 | [3429-special-array-i](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/3429-special-array-i) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
+| [3483-alternating-groups-ii](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/3483-alternating-groups-ii) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 ## Hash Table
 |  |
@@ -402,6 +403,7 @@
 |  |
 | ------- |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
+| [3483-alternating-groups-ii](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/3483-alternating-groups-ii) |
 | [3502-count-substrings-with-k-frequency-characters-i](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/3502-count-substrings-with-k-frequency-characters-i) |
 ## Divide and Conquer
 |  |
