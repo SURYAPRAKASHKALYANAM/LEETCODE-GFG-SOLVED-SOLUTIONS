@@ -2,8 +2,8 @@ class Solution {
 public:
     int minOperations(vector<int>& nums) {
         int cnt = 0;
-        int start = 0, end = 0, n = nums.size();
-        while (start <= end && end < n) {
+        int start, end = 0, n = nums.size();
+        while (end < n) {
             if (nums[end])
                 end++;
             else {
