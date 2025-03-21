@@ -16,9 +16,9 @@ public:
     vector<int> eventualSafeNodes(vector<vector<int>>& graph) {
         vector<int> ans;
         int n = graph.size();
-        vector<int> visited(n, -2);
+        vector<int> visited(n, -1);
         for (int i = 0; i < n; i++) {
-            if (visited[i] == -2 && dfs(i, visited, graph)) {
+            if (visited[i] == -1 && dfs(i, visited, graph)) {
                 visited[i] = 1;
                 ans.emplace_back(i);
             } else if (visited[i] == 1)
