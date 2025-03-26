@@ -4,14 +4,12 @@ public:
         int m = grid.size(), n = grid[0].size();
         vector<int> extended;
         for (int i = 0; i < m; i++) {
-            // extended.reserve(extended.size() + n);
             extended.insert(extended.end(), grid[i].begin(), grid[i].end());
         }
         int cnt = 0;
         sort(extended.begin(), extended.end());
         int size = m * n;
         int median = ((size & 1) ? size : size - 1) / 2;
-        cout << extended[median];
         for (auto i : extended) {
 
             int diff = abs(i - extended[median]);
