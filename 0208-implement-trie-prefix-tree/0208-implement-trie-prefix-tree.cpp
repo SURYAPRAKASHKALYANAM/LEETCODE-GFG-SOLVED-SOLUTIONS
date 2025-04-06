@@ -1,6 +1,6 @@
 struct Node
 {
-    struct Node *link[26];
+    Node *link[26];
     bool isEndofWord = false;
     bool containkey(char ch)
     {
