@@ -1,8 +1,8 @@
 class Solution {
 public:
     int mod = 1e9 + 7;
-    long long power(long long x, long exp) {
-        long long ans = 1;
+    long  power(long x, long exp) {
+        long  ans = 1;
         long pow = exp;
         while (pow > 0) {
             if (pow & 1) {
@@ -16,8 +16,7 @@ public:
         return ans;
     }
     int countGoodNumbers(long long n) {
-        int ans = 1;
-        long long even = n / 2 + (n % 2), odd = n / 2;
+        long  even = n / 2 + (n % 2), odd = n / 2;
         return (int)((power(5, even) * power(4, odd)) % mod);
     }
 };
