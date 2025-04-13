@@ -159,6 +159,7 @@
 | [1889-check-if-number-is-a-sum-of-powers-of-three](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1889-check-if-number-is-a-sum-of-powers-of-three) |
 | [1939-queries-on-number-of-points-inside-a-circle](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1939-queries-on-number-of-points-inside-a-circle) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1993-sum-of-all-subset-xor-totals) |
+| [2050-count-good-numbers](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/2050-count-good-numbers) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2448-count-number-of-bad-pairs](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/2448-count-number-of-bad-pairs) |
 | [2649-count-total-number-of-colored-cells](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/2649-count-total-number-of-colored-cells) |
@@ -363,6 +364,7 @@
 | ------- |
 | [0025-reverse-nodes-in-k-group](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/0025-reverse-nodes-in-k-group) |
 | [0394-decode-string](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/0394-decode-string) |
+| [2050-count-good-numbers](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/2050-count-good-numbers) |
 ## Bit Manipulation
 |  |
 | ------- |
