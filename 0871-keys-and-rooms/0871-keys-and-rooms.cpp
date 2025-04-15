@@ -16,6 +16,6 @@ public:
                 }
             }
         }
-        return accumulate(begin(vis), end(vis), 0) == rooms.size();
+        return find(begin(vis), end(vis), 0) == end(vis);
     }
 };
