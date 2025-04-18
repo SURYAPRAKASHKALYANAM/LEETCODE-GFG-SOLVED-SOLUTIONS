@@ -19,9 +19,6 @@ public:
             }
             i++;
         }
-        if (cnt == 1 && start < len) {
-            chars[start - 1] = chars[len - 1];
-        }
         return start;
     }
 };
