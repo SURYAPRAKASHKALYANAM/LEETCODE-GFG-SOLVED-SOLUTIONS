@@ -28,7 +28,6 @@ public:
                 } else
                     i++;
             }
-            cout << l << " " << i << "\n";
             if (l == needlelen)
                 return i - needlelen;
         }
