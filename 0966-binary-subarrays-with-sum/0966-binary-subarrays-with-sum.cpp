@@ -1,8 +1,7 @@
 class Solution {
 public:
-    void func(vector<int>& nums, int& cnt, int goal) {
+    void func(vector<int>& nums, int& cnt, int goal,int n) {
         int start = 0, end = 0, curr = 0, postend = 0;
-        int n = nums.size();
         while (end < n) {
             while (curr < goal && end < n) {
                 if (nums[end])
@@ -14,7 +13,7 @@ public:
                 postend++;
             }
             while (curr == goal && start <= end) {
-                    cnt += (1 + (postend - end));
+                cnt += (1 + (postend - end));
                 if (nums[start])
                     curr--;
                 start++;
@@ -24,8 +23,8 @@ public:
     }
     int numSubarraysWithSum(vector<int>& nums, int goal) {
         int cnt = 0;
+        int n = nums.size();
         if (goal == 0) {
-            int n = nums.size();
             int start = 0, end = 0;
             while (end < n) {
                 if (nums[end])
@@ -40,7 +39,7 @@ public:
             }
 
         } else
-            func(nums, cnt, goal);
+            func(nums, cnt, goal,n);
         return cnt;
     }
 };
