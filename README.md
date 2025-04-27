@@ -287,6 +287,7 @@
 | [3653-maximum-subarray-sum-with-length-divisible-by-k](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/3653-maximum-subarray-sum-with-length-divisible-by-k) |
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
 | [3657-check-if-grid-can-be-cut-into-sections](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/3657-check-if-grid-can-be-cut-into-sections) |
+| [3685-count-subarrays-of-length-three-with-a-condition](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/3685-count-subarrays-of-length-three-with-a-condition) |
 | [3748-sort-matrix-by-diagonals](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/3748-sort-matrix-by-diagonals) |
 ## Hash Table
 |  |
