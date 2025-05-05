@@ -12,24 +12,28 @@
  */
 class Solution {
 public:
-    void helper(TreeNode* root, vector<int> counts, int& cnt) {
+    void helper(TreeNode* root, vector<int> counts, int& cnt, int odd_cnt) {
         if (!root) {
             return;
         }
-        if (!root->left && !root->right) {
-            counts[root->val]++;
-            cnt += (count_if(counts.begin(), counts.end(),
-                             [](int n) { return n & 1; }) <= 1);
+        if (counts[root->val]) {
+            counts[root->val]--;
+            odd_cnt--;
         } else {
             counts[root->val]++;
-            helper(root->left, counts, cnt);
-            helper(root->right, counts, cnt);
+            odd_cnt++;
+        }
+        if (!root->left && !root->right) {
+            cnt += (odd_cnt <= 1);
+        } else {
+            helper(root->left, counts, cnt, odd_cnt);
+            helper(root->right, counts, cnt, odd_cnt);
         }
     }
     int pseudoPalindromicPaths(TreeNode* root) {
         vector<int> counts(10, 0);
-        int cnt = 0;
-        helper(root, counts, cnt);
+        int cnt = 0, odd_cnt = 0;
+        helper(root, counts, cnt, odd_cnt);
         return cnt;
     }
 };
