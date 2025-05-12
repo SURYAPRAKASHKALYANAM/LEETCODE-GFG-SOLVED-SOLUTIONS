@@ -9,8 +9,6 @@
 class Solution {
 public:
     ListNode* getIntersectionNode(ListNode* headA, ListNode* headB) {
-        // if (headA == headB)
-        //     return headA;
         ListNode *tempA = headA, *tempB = headB;
         while (tempA != tempB) {
             tempA = tempA->next;
@@ -22,6 +20,6 @@ public:
             if (!tempB)
                 tempB = headA;
         }
-        return (tempA ? tempA : tempB);
+        return tempA;
     }
 };
