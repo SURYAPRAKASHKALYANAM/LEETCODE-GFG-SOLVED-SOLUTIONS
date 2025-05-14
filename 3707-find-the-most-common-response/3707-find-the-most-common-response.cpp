@@ -4,9 +4,13 @@ public:
         int n = responses.size();
         map<string, int> counts;
         for (int i = 0; i < n; i++) {
-            set<string> st(responses[i].begin(), responses[i].end());
-            for (auto i : st)
-                counts[i]++;
+            unordered_map<string, bool> seen;
+            for (auto i : responses[i]) {
+                if (!seen[i]) {
+                    counts[i]++;
+                    seen[i] = true;
+                }
+            }
         }
         string ans = "";
         int max_cnt = 0;
