@@ -7,9 +7,9 @@ public:
             ind[i[0]] -= 1;
             ind[i[1] + 1] += 1;
         }
-        for (int i = 1; i < n; i++)
-            ind[i] += ind[i - 1];
         for (int i = 0; i < n; i++) {
+            if (i > 0)
+                ind[i] += ind[i - 1];
             nums[i] += ind[i];
             if (nums[i] > 0)
                 return false;
