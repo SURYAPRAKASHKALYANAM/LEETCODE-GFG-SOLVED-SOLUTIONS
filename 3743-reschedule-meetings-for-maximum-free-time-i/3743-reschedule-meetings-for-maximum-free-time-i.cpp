@@ -4,18 +4,25 @@ public:
                     vector<int>& endTime) {
         vector<int> diff;
         int len = startTime.size();
+        int cnt = 1;
         diff.push_back(startTime[0]);
+        int max_time = diff[0], curr_time = diff[0];
         for (int i = 0; i < len - 1; i++) {
             diff.push_back(startTime[i + 1] - endTime[i]);
-        }
-        diff.push_back(eventTime - endTime[len - 1]);
-        int max_time = 0, curr_time = 0;
-        for (int i = 0; i < diff.size(); i++) {
-            if ((i - (k + 1)) >= 0)
-                curr_time -= diff[i - (k + 1)];
-            curr_time += diff[i];
+            if (cnt - (k + 1) >= 0) {
+                curr_time -= diff[cnt - (k + 1)];
+            }
+            curr_time += diff[cnt];
+            cnt++;
             max_time = max(max_time, curr_time);
         }
+        diff.push_back(eventTime - endTime[len - 1]);
+        if (cnt - (k + 1) >= 0) {
+            curr_time -= diff[cnt - (k + 1)];
+        }
+        curr_time += diff[cnt];
+        cnt++;
+        max_time = max(max_time, curr_time);
         return max_time;
     }
 };
