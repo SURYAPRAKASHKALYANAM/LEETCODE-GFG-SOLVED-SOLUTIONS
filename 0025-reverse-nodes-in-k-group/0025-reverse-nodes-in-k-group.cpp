@@ -10,40 +10,40 @@
  */
 class Solution {
 public:
+    ListNode* helper(ListNode* prev, ListNode* curr, ListNode* end) {
+        if (curr == end)
+            return prev;
+        ListNode* start = curr->next;
+        curr->next = prev;
+        return helper(curr, start, end);
+    }
     ListNode* reverseKGroup(ListNode* head, int k) {
-        // Anna Namaste
-        ListNode *root = nullptr, *prev = nullptr;
-        int temp = k;
-        stack<ListNode*> st;
-        while (head) {
-            ListNode* prevorig = head;
-            while (temp > 0 && head) {
-                st.push(head);
-                head = head->next;
-                temp--;
+        int cnt = k;
+        ListNode *resultHead = NULL;
+        ListNode *end = head, *prevEnd = NULL;
+        while (end) {
+            ListNode* start = end;
+            while (end && cnt) {
+                end = end->next;
+                cnt--;
             }
-            if (temp == 0) {
-                while (!st.empty()) {
-                    if (!root) {
-                        prev = root = st.top();
-                    } else {
-                        prev->next = st.top();
-                        prev = st.top();
-                    }
-                    st.pop();
+            if (cnt == 0) {
+                ListNode* newHead = helper(NULL, start, end);
+                if (!resultHead) {
+                    resultHead = newHead;
                 }
-                if (!head)
-                    prev->next = NULL;
+                if (prevEnd) {
+                    prevEnd->next = newHead;
+                }
+                prevEnd = start;
             } else {
-                if (!root)
-                    prev = root = prevorig;
+                if (prevEnd)
+                    prevEnd->next = start;
                 else
-                    prev->next = prevorig;
-                if (!head)
-                    st.top()->next = NULL;
+                    resultHead = head;
             }
-            temp = k;
+            cnt = k;
         }
-        return root;
+        return resultHead;
     }
 };
