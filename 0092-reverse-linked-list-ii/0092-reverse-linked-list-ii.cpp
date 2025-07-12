@@ -1,39 +1,42 @@
 /**
- *Definition for singly-linked list.
- *struct ListNode {
- *    int val;
- *    ListNode * next;
- *    ListNode() : val(0), next(nullptr) {}
- *    ListNode(int x) : val(x), next(nullptr) {}
- *    ListNode(int x, ListNode *next) : val(x), next(next) {}
- *};
+ * Definition for singly-linked list.
+ * struct ListNode {
+ *     int val;
+ *     ListNode *next;
+ *     ListNode() : val(0), next(nullptr) {}
+ *     ListNode(int x) : val(x), next(nullptr) {}
+ *     ListNode(int x, ListNode *next) : val(x), next(next) {}
+ * };
  */
-class Solution
-{
-    public:
-        ListNode* reverseBetween(ListNode *head, int left, int right)
-        {
-            if (left == right) return head;
-            ListNode *start, *end, *temp = head, *prevs;
-            for (int i = 1; i <= right; i++)
-            {
-                if (i == left - 1) prevs = temp;
-                if (i == left) start = temp;
-                if (i == right) end = temp;
-                temp = temp->next;
-            }
-            ListNode *prev = start, *t2, *after = (end) ? end->next : NULL;
-            if (start != head) prevs->next = end;
-            temp = start->next;
-            while (temp != end)
-            {
-                t2 = temp->next;
-                temp->next = prev;
+class Solution {
+public:
+    pair<ListNode*, ListNode*> helper(ListNode* prev, ListNode* curr, int pos,
+                                      int right) {
+        if (pos == right + 1)
+            return {prev, curr};
+        ListNode* temp = curr->next;
+        curr->next = prev;
+        return helper(curr, temp, pos + 1, right);
+    }
+    ListNode* reverseBetween(ListNode* head, int left, int right) {
+        ListNode *temp = head, *prev = NULL;
+        int pos = 1;
+        while (1) {
+            if (pos == left - 1)
                 prev = temp;
-                temp = t2;
+            if (pos == left) {
+                auto it = helper(temp, temp->next, pos + 1, right);
+                ListNode* newHead = it.first;
+                if (prev) {
+                    prev->next = newHead;
+                } else
+                    head = newHead;
+                temp->next = it.second;
+                break;
             }
-            temp->next = prev;
-            start->next = after;
-            return (start != head) ? head : end;
+            pos++;
+            temp = temp->next;
         }
+        return head;
+    }
 };
