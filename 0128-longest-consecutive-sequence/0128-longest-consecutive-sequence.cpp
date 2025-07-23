@@ -1,45 +1,19 @@
-class Solution
-{
-    public:
-        int longestConsecutive(vector<int> &nums)
-        {
-            set<int> m;
-           	// int max=INT_MIN,c=0;
-            for (int i = 0; i < nums.size(); i++)
-            {
-                m.insert(nums[i]);
+class Solution {
+public:
+    int longestConsecutive(vector<int>& nums) {
+        sort(begin(nums), end(nums));
+        int max_len = 1, end = 0, cnt = 1;
+        for (int i = 1; i < nums.size(); i++) {
+            if (nums[i] == nums[i - 1])
+                continue;
+            if (nums[end] + 1 == nums[i]) {
+                cnt++;
+            } else {
+                cnt = 1;
             }
-
-           	//TC :O(LENGTH OF MAP)
-           	// c=1;
-           	// if(m.size()<=1) return m.size();
-           	// for(int i=0;i < m.size()-1;i++)
-           	// {
-           	//     if(m[i]>0 && m[i+1]>0)
-           	//     {
-           	//         c++;
-           	//         if(c>max) max=c;
-           	//     }
-           	//     else c=1;
-           	//     if(c>max) max=c;
-           	// } 
-
-           	//optimal one TC O(N)
-            int maxstreak = 0;
-            for (auto i: nums)
-            {
-                int curr = i;
-                if (m.find(curr - 1) == m.end())
-                {
-                    int currentstreak = 1;
-                    while (m.find(curr + 1) != m.end())
-                    {
-                        currentstreak++;
-                        curr++;
-                    }
-                    maxstreak = max(maxstreak, currentstreak);
-                }
-            }
-            return maxstreak;
+            end = i;
+            max_len = max(max_len, cnt);
         }
+        return nums.size() ? max_len : 0;
+    }
 };
