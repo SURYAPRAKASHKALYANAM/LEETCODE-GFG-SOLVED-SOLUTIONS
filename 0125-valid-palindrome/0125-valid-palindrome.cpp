@@ -8,9 +8,9 @@ public:
         int len = s.size();
         int start = 0, end = len - 1;
         while (start < end) {
-            while (start < end && !isAlnum(s[start]))
+            while (start < end && !isalnum(s[start]))
                 start++;
-            while (end > start && !isAlnum(s[end]))
+            while (end > start && !isalnum(s[end]))
                 end--;
             if (start < end) {
                 if (tolower(s[start]) != tolower(s[end]))
