@@ -1,38 +1,26 @@
 class Solution {
 public:
-    bool casee(int i,int j,string s)
-    {
-        int n=s.size();
-        while(i<n/2 || j>n/2)
-        {
-            if(s[i]!=s[j]) return false ;
-            i++;
-            j--;
+    bool isPalindrome(int start, int end, string s) {
+        while (start < end) {
+            if (s[end] != s[start])
+                return false;
+            end--;
+            start++;
         }
         return true;
     }
-    bool validPalindrome(string s) 
-    {
-        int n=s.size();
-        int i=0,j=n-1,ex=1;
-        while(i<n/2 && j>n/2)
-        {
-            if(s[i]==s[j])
-            {
-                i++;
-                j--;
+    bool validPalindrome(string s) {
+        int start = 0, end = s.size() - 1;
+        while (start < end) {
+            if (s[start] != s[end]) {
+                if (s[start] == s[end - 1] || s[start + 1] == s[end]) {
+                    return isPalindrome(start + 1, end, s) ||
+                           isPalindrome(start, end - 1, s);
+                } else
+                    return false;
             }
-            else
-            {
-                // cout<<i<<j<<"\n";
-                if(ex)
-                {
-                    if(s[i]==s[j-1] || s[i+1]==s[j]) return casee(i,j-1,s) || casee(i+1,j,s); 
-                    else return false;
-                    ex--;
-                }
-                else return false;
-            }
+            start++;
+            end--;
         }
         return true;
     }
