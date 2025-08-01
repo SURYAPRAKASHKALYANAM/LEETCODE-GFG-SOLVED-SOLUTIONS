@@ -1,35 +1,32 @@
 class Solution {
 public:
-    int strStr(string haystack, string needle) {
-        // KMP ALGO O(N)
-        int needlelen = needle.size();
-        vector<int> lps(needlelen);
-        lps[0] = 0;
-        int l = 0, i = 1;
-        while (i < needlelen) {
-            if (needle[i] == needle[l]) {
-                lps[i] = ++l;
-                i += 1;
+    void lpsHelper(vector<int>& lps, string s) {
+        int i = 1, j = 0, len = s.size();
+        while (i < len) {
+            if (s[i] == s[j]) {
+                lps[i] = j + 1;
+                j++;
+                i++;
             } else {
-                if (l != 0) {
-                    l = lps[l - 1];
-                } else
-                    i++;
+                while (j > 0 && s[i] != s[j]) {
+                    j = lps[j - 1];
+                }
+                if (s[i] == s[j]) {
+                    lps[i] = j + 1;
+                    j++;
+                }
+                i++;
             }
         }
-        l = 0, i = 0;
-        while (i < haystack.size()) {
-            if (needle[l] == haystack[i]) {
-                i++;
-                l++;
-            } else {
-                if (l != 0) {
-                    l = lps[l - 1];
-                } else
-                    i++;
-            }
-            if (l == needlelen)
-                return i - needlelen;
+    }
+    int strStr(string haystack, string needle) {
+        string s = needle + "$" + haystack;
+        int len = s.size() + haystack.size() + 1;
+        vector<int> lps(len, 0);
+        lpsHelper(lps, s);
+        for (int i = needle.size() + 1; i < len; i++) {
+            if (lps[i] == needle.size())
+                return i - 2 * needle.size();
         }
         return -1;
     }
