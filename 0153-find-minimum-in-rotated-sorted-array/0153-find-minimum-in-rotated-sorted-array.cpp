@@ -8,7 +8,7 @@ public:
             mid = start + (end-start)/2;
             // cout<<start<<" "<<mid<<" "<<end<<endl;
             if(nums[mid]<=nums[end]){
-                minEle = nums[mid];
+                minEle = min(minEle,nums[mid]);
                 // cout<<minEle<<"\n";
                 end=mid-1;
             } else{
