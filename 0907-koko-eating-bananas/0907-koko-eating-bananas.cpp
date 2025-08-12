@@ -3,7 +3,8 @@ public:
     long long helper(vector<int>& piles, long long k, int lim) {
         long long time = 0LL;
         for (long long i : piles) {
-            time += (long long)((i / k) + (i % k ? 1 : 0));
+            // time += (long long)((i / k) + (i % k ? 1 : 0));
+            time += ((long long)i + k - 1) / k;
             if (time > lim)
                 return 2;
         }
