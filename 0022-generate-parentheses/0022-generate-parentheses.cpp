@@ -1,40 +1,19 @@
 class Solution {
-public:
-    // bool isvalid(string& s) {
-    //     stack<char> st;
-    //     for (char ch : s) {
-    //         if (ch == ')') {
-    //             if (st.empty() || st.top() != '(')
-    //                 return false;
-    //             st.pop();
-
-    //         } else
-    //             st.push(ch);
-    //     }
-    //     return st.empty();
-    // }
-    void dfs(vector<string>& ans, int open, int close,string s) {
-        if(open==0 && close==0)
-        {
-            ans.emplace_back(s);
+   public:
+    void generate(vector<string>& ans, string curr, int open, int close,
+                  int len) {
+        if (open < close) return;
+        if (open + close == 2 * len) {
+            ans.emplace_back(curr);
             return;
         }
-        if(open>0)
-        {
-            dfs(ans,open-1,close,s+'(');
-        }
-        if(close>0)
-        {
-            if(close>open)
-            {
-                dfs(ans,open,close-1,s+')');
-            }
-        }
+        if (open < len) generate(ans, curr + '(', open + 1, close, len);
+        if (close < len) generate(ans, curr + ')', open, close + 1, len);
     }
     vector<string> generateParenthesis(int n) {
+        // your code goes here
         vector<string> ans;
-        string s = "";
-        dfs(ans, n, n, s);
+        generate(ans, "", 0, 0, n);
         return ans;
     }
 };
