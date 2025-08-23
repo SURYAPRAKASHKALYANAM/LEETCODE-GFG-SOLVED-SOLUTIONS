@@ -1,24 +1,16 @@
 class Solution {
 public:
-    double myPow(double x, int n) 
-    {
-        double ans=1;
-        long long nn=n;
-        if(n<0) nn=-1*nn;
-        while(nn>0)
-        {
-            if(nn & 1)
-            {
-                ans=ans*x;
-                nn=nn-1;
-            }
-            else
-            {
-                x=(x*x);
-                nn=nn/2;
-            }
+    double myPow(double x, int n) {
+        // recursive
+        long pow = n;
+        if (pow < 0) {
+            x = 1 / x;
+            pow *= -1;
         }
-        if(n>=0) return ans;
-        return (double)1/(double)ans;
+        if (pow == 0)
+            return 1;
+        if (pow & 1)
+            return x * myPow(x, pow - 1);
+        return myPow(x * x, pow / 2);
     }
 };
