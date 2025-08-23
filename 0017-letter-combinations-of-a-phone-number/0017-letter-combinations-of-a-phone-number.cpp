@@ -1,35 +1,30 @@
-class Solution
-{
-    public:
-        void dfs(string digits, vector<string> &ans, string curr, int pos, unordered_map<int, string> m)
-        {
-            if (pos == digits.size() && curr != "")
-            {
-                ans.emplace_back(curr);
-                return;
-            }
-            for (auto i = 0; i < m[digits[pos] - '0'].size(); i++)
-            {
-                curr += m[digits[pos] - '0'][i];
-                dfs(digits, ans, curr, pos + 1, m);
-                curr.pop_back();
-            }
+class Solution {
+public:
+    unordered_map<char, string> keyMap;
+    void generate(int pos, string curr, string& digits, int len,
+                  vector<string>& ans) {
+        if (len == 0)
+            return;
+        if (pos == len) {
+            ans.emplace_back(curr);
+            return;
         }
-    vector<string> letterCombinations(string digits)
-    {
-        unordered_map<int, string> m;
-        m[2] = "abc";
-        m[3] = "def";
-        m[4] = "ghi";
-        m[5] = "jkl";
-        m[6] = "mno";
-        m[7] = "pqrs";
-        m[8] = "tuv";
-        m[9] = "wxyz";
+        for (char i : keyMap[digits[pos]]) {
+            generate(pos + 1, curr + i, digits, len, ans);
+        }
+    }
+    vector<string> letterCombinations(string digits) {
+        // your code goes here
         vector<string> ans;
-        string curr = "";
-        int pos = 0;
-        dfs(digits, ans, curr, pos, m);
+        keyMap['2'] = "abc";
+        keyMap['3'] = "def";
+        keyMap['4'] = "ghi";
+        keyMap['5'] = "jkl";
+        keyMap['6'] = "mno";
+        keyMap['7'] = "pqrs";
+        keyMap['8'] = "tuv";
+        keyMap['9'] = "wxyz";
+        generate(0, "", digits, digits.size(), ans);
         return ans;
     }
 };
