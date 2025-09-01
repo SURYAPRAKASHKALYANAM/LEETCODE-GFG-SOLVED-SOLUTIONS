@@ -1,57 +1,56 @@
-/**
- *Definition for singly-linked list.
- *struct ListNode {
- *int val;
- *ListNode * next;
- *ListNode() : val(0), next(nullptr) {}
- *ListNode(int x) : val(x), next(nullptr) {}
- *ListNode(int x, ListNode *next) : val(x), next(next) {}
- *};
- */
-class Solution
+/*
+Definition of singly linked list:
+struct ListNode
 {
-    public:
-        ListNode* sortList(ListNode *head)
-        {
-            if (head == NULL || head->next == NULL) return head;
-            ListNode *temp = NULL, *slow = head, *fast = head;
-            while (fast && fast->next)
-            {
-                temp = slow;
-                slow = slow->next;
-                fast = fast->next->next;
-            }
-            temp->next = NULL;
-            return mergelist(sortList(head), sortList(slow));
-        }
-    ListNode* mergelist(ListNode *l1, ListNode *l2)
+    int val;
+    ListNode *next;
+    ListNode()
     {
-        ListNode *ptr = new ListNode(0);
-        ListNode *curr = ptr;
-        while (l1 && l2)
-        {
-            if (l1->val <= l2->val)
-            {
-                curr->next = l1;
+        val = 0;
+        next = NULL;
+    }
+    ListNode(int data1)
+    {
+        val = data1;
+        next = NULL;
+    }
+    ListNode(int data1, ListNode *next1)
+    {
+        val = data1;
+        next = next1;
+    }
+};
+*/
+
+class Solution {
+public:
+    ListNode* mergeSort(ListNode* head) {
+        if (!head || !head->next)
+            return head;
+        ListNode *slow = head, *fast = head;
+        ListNode* middle = head;
+        while (fast && fast->next) {
+            middle = slow;
+            slow = slow->next;
+            fast = fast->next->next;
+        }
+        middle->next = nullptr;
+        return merge(mergeSort(head), mergeSort(slow));
+    }
+    ListNode* merge(ListNode* l1, ListNode* l2) {
+        ListNode* dummy = new ListNode(-1);
+        ListNode* temp = dummy;
+        while (l1 && l2) {
+            if (l1->val <= l2->val) {
+                temp = temp->next = l1;
                 l1 = l1->next;
-            }
-            else
-            {
-                curr->next = l2;
+            } else {
+                temp = temp->next = l2;
                 l2 = l2->next;
             }
-            curr = curr ->next;
         }
-        if(l1)
-        {
-            curr->next = l1;
-            l1 = l1->next;
-        }
-        if(l2)
-        {
-            curr->next=l2;
-            l2=l2->next;
-        }
-        return ptr->next;
+        temp->next = l1 ? l1 : l2;
+        return dummy->next;
     }
+    ListNode* sortList(ListNode* head) { return mergeSort(head); }
 };
