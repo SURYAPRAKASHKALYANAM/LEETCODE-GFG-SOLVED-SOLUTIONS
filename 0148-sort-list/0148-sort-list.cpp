@@ -24,19 +24,6 @@ struct ListNode
 
 class Solution {
 public:
-    ListNode* mergeSort(ListNode* head) {
-        if (!head || !head->next)
-            return head;
-        ListNode *slow = head, *fast = head;
-        ListNode* middle = head;
-        while (fast && fast->next) {
-            middle = slow;
-            slow = slow->next;
-            fast = fast->next->next;
-        }
-        middle->next = nullptr;
-        return merge(mergeSort(head), mergeSort(slow));
-    }
     ListNode* merge(ListNode* l1, ListNode* l2) {
         ListNode* dummy = new ListNode(-1);
         ListNode* temp = dummy;
@@ -52,5 +39,18 @@ public:
         temp->next = l1 ? l1 : l2;
         return dummy->next;
     }
-    ListNode* sortList(ListNode* head) { return mergeSort(head); }
+    ListNode* sortList(ListNode* head) {
+        if (!head || !head->next)
+            return head;
+        ListNode *slow = head, *fast = head->next;
+        ListNode* middle = head;
+        while (fast && fast->next) {
+            slow = slow->next;
+            middle = slow;
+            fast = fast->next->next;
+        }
+        ListNode* left = middle->next;
+        middle->next = nullptr;
+        return merge(sortList(head), sortList(left));
+    }
 };
