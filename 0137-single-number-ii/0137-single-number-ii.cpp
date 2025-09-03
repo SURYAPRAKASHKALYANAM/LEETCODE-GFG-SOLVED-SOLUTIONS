@@ -18,13 +18,21 @@ public:
         }
         return ans;
         */
-        /* O NLogN */
+        /* O NLogN
         int len = nums.size();
         sort(nums.begin(), nums.end());
         for (int i = 0; i < len - 3; i += 3) {
             if (nums[i] != nums[i + 1] && nums[i] != nums[i + 2])
                 return nums[i];
         }
-        return nums[len - 1];
+        return nums[len - 1]; */
+
+        // O N
+        int ones = 0, twos = 0;
+        for (int i : nums) {
+            ones = (ones ^ i) & ~twos;
+            twos = (twos ^ i) & ~ones;
+        }
+        return ones;
     }
 };
