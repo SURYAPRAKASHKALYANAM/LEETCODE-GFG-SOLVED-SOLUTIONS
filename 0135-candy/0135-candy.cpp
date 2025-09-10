@@ -1,7 +1,33 @@
 class Solution {
 public:
     int candy(vector<int>& ratings) {
-
+        // O(N) , O(1)
+        int n = ratings.size();
+        int peak, down;
+        int sum = 1, i = 1;
+        while (i < n) {
+            if (ratings[i] == ratings[i - 1]) {
+                sum++;
+                i++;
+                continue;
+            }
+            peak = 1;
+            while (i < n && ratings[i] > ratings[i - 1]) {
+                peak++;
+                sum += peak;
+                i++;
+            }
+            down = 1;
+            while (i < n && ratings[i] < ratings[i - 1]) {
+                sum += down;
+                down++;
+                i++;
+            }
+            if (down > peak)
+                sum += (down - peak);
+        }
+        return sum;
+        /*
         // space complexity (N) tc O(2N)
 
         int n = ratings.size();
@@ -22,7 +48,6 @@ public:
         }
         return sum;
 
-        /*
         // space complexity (2N) tc O(2N)
         int n = ratings.size();
         vector<int> left(n, 1), right(n, 1);
