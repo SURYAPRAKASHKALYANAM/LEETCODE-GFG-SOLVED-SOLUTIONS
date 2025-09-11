@@ -17,25 +17,29 @@ public:
 class Solution {
 public:
     Node* copyRandomList(Node* head) {
-        Node* temp = head;
+        Node* dummyHead = new Node(-1);
+        Node *dummy = dummyHead, *temp = head;
         while (temp) {
-            temp->next = new Node(temp->val, temp->next, nullptr);
-            temp = temp->next->next;
+            Node* next = temp->next;
+            temp->next = new Node(temp->val, next);
+            temp = next;
         }
         temp = head;
         while (temp) {
             Node* newNode = temp->next;
-            newNode->random = temp->random ? temp->random->next : nullptr;
+            if (temp->random)
+                newNode->random = temp->random->next;
+            else
+                newNode->random = nullptr;
             temp = newNode->next;
         }
         temp = head;
-        Node* dummy = new Node(-1);
-        Node* dummyNode = dummy;
         while (temp) {
             Node* newNode = temp->next;
             dummy = dummy->next = newNode;
             temp = temp->next = newNode ? newNode->next : nullptr;
         }
-        return dummyNode->next;
+
+        return dummyHead->next;
     }
 };
