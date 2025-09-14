@@ -3,15 +3,18 @@ public:
     vector<int> nextGreaterElements(vector<int>& nums) {
         int n = nums.size();
         stack<int> st;
-        vector<int> ans(2 * n);
-        nums.insert(nums.end(), nums.begin(), nums.end());
-        for (int i = 2 * n - 1; i >= 0; i--) {
+        vector<int> ans(n);
+        for (int i = n - 1; i >= 0; i--) {
+            while (!st.empty() && (st.top() <= nums[i]))
+                st.pop();
+            st.push(nums[i]);
+        }
+        for (int i = n - 1; i >= 0; i--) {
             while (!st.empty() && (st.top() <= nums[i]))
                 st.pop();
             ans[i] = st.empty() ? -1 : st.top();
             st.push(nums[i]);
         }
-        vector<int> res(ans.begin(), ans.begin() + n);
-        return res;
+        return ans;
     }
 };
