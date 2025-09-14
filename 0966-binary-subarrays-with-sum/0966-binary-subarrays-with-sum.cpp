@@ -1,45 +1,22 @@
 class Solution {
 public:
-    void func(vector<int>& nums, int& cnt, int goal,int n) {
-        int start = 0, end = 0, curr = 0, postend = 0;
-        while (end < n) {
-            while (curr < goal && end < n) {
-                if (nums[end])
-                    curr++;
-                end++;
+    int helper(vector<int>& nums, int goal) {
+        if (goal < 0)
+            return 0;
+        int len = nums.size();
+        int cnt = 0, ans = 0;
+        int l = 0;
+        for (int i = 0; i < len; i++) {
+            cnt += nums[i];
+            while (cnt > goal) {
+                cnt -= nums[l];
+                l++;
             }
-            postend = end;
-            while (postend < n && !nums[postend]) {
-                postend++;
-            }
-            while (curr == goal && start <= end) {
-                cnt += (1 + (postend - end));
-                if (nums[start])
-                    curr--;
-                start++;
-            }
+            ans += (i - l + 1);
         }
-        return;
+        return ans;
     }
     int numSubarraysWithSum(vector<int>& nums, int goal) {
-        int cnt = 0;
-        int n = nums.size();
-        if (goal == 0) {
-            int start = 0, end = 0;
-            while (end < n) {
-                if (nums[end])
-                    end++;
-                start = end;
-                while (end < n && !nums[end]) {
-                    end++;
-                }
-                int gap = end - start;
-                cnt += gap * (gap + 1) / 2;
-                start = end++;
-            }
-
-        } else
-            func(nums, cnt, goal,n);
-        return cnt;
+        return helper(nums, goal) - helper(nums, goal - 1);
     }
 };
