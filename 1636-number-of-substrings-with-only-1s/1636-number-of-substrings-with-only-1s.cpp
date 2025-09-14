@@ -12,9 +12,10 @@ public:
             else {
                 while (i < len && s[i] == '1')
                     i++;
-                i--;
-                long long n = i - zeroIdx;
-                ans = (ans + ((n % mod) * (n + 1) % mod / 2)) % mod;
+                long long n = i - zeroIdx - 1;
+                // i--; or
+                zeroIdx = i;
+                ans = (ans + (n * (n + 1) / 2)) % mod;
             }
         }
         return ans;
