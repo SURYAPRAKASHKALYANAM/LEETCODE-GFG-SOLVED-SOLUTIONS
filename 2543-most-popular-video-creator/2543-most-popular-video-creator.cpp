@@ -12,19 +12,20 @@ public:
                                               vector<string>& ids,
                                               vector<int>& views) {
         unordered_map<string, long long> viewsMap;
-        unordered_map<string, set<pair<int, string>, Compare>> idsMap;
+        // unordered_map<string, set<pair<int, string>, Compare>> idsMap;
+        unordered_map<string, map<int, set<string>>> idsMap;
         vector<vector<string>> ans;
         int len = ids.size();
         long long max_views = -1L;
         for (int i = 0; i < len; i++) {
             viewsMap[creators[i]] += views[i];
-            idsMap[creators[i]].insert({views[i], ids[i]});
+            idsMap[creators[i]][views[i]].insert(ids[i]);
             max_views = max(max_views, viewsMap[creators[i]]);
         }
         for (auto creator : viewsMap) {
             if (creator.second == max_views) {
-                ans.push_back(
-                    {creator.first, (idsMap[creator.first].rbegin())->second});
+                auto ids = idsMap[creator.first].rbegin();
+                ans.push_back({creator.first, *(ids->second.begin())});
             }
         }
         return ans;
