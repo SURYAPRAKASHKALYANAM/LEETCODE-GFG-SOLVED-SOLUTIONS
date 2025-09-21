@@ -1,7 +1,7 @@
 class MovieRentingSystem {
 public:
     unordered_map<long long, int> shopMovieDb;    // (shop+movie) => price
-    unordered_map<int, set<vector<int>>> movieDb; // movie => {price,shop}
+    unordered_map<int, set<pair<int,int>>> movieDb; // movie => {price,shop}
     set<vector<int>> rented; // rented movies {price,shop,movie}
     long long encode(int shop, int movie) {
         return ((long long)shop << 32) | (long long)movie;
@@ -24,7 +24,7 @@ public:
         int req = 5;
         for (auto it = shopList.begin(); it != shopList.end() && req > 0;
              it++, req--) {
-            shops.push_back((*it)[1]);
+            shops.push_back(it->second);
         }
         return shops;
     }
