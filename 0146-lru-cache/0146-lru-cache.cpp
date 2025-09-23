@@ -1,71 +1,69 @@
-class DoublyLinkedNode {
+class Doubly {
 public:
-    pair<int, int> val;
-    DoublyLinkedNode *prev, *next;
-    DoublyLinkedNode() : val({-1, -1}), prev(nullptr), next(nullptr) {};
-    DoublyLinkedNode(pair<int, int> v)
-        : val(v), prev(nullptr), next(nullptr) {};
+    int key, value;
+    Doubly *prev, *next;
+    Doubly(int _key, int _value, Doubly* _prev = nullptr,
+           Doubly* _next = nullptr) {
+        key = _key;
+        value = _value;
+        prev = _prev;
+        next = _next;
+    }
 };
-
 class LRUCache {
 public:
-    int capacity, presentSize = 0;
-    DoublyLinkedNode *head, *tail;
-    map<int, DoublyLinkedNode*> keyAddress;
+    int maxLen, currLen;
+    Doubly *first, *last;
+    unordered_map<int, Doubly*> nodeMap;
     LRUCache(int capacity) {
-        this->capacity = capacity;
-        presentSize = 0;
-        head = new DoublyLinkedNode();
-        tail = new DoublyLinkedNode();
-        head->next = tail;
-        tail->prev = head;
-    }
-
-    void deleteNode(DoublyLinkedNode* node) {
-        DoublyLinkedNode* previousNode = node->prev;
-        previousNode->next = node->next;
-        node->next->prev = previousNode;
-    }
-
-    void insertBegin(DoublyLinkedNode* node) {
-        DoublyLinkedNode* headNext = head->next;
-        headNext->prev = node;
-        head->next = node;
-        node->prev = head;
-        node->next = headNext;
-    }
-
-    void deleteEnd() {
-        DoublyLinkedNode* last = tail->prev;
-        tail->prev = last->prev;
-        last->prev->next = tail;
-        keyAddress[last->val.first] = nullptr;
+        maxLen = capacity;
+        currLen = 0;
+        first = new Doubly(-1, -1);
+        first->next = last = new Doubly(-1, -1, first);
     }
 
     int get(int key) {
-        if (keyAddress[key]) {
-            deleteNode(keyAddress[key]);
-            insertBegin(keyAddress[key]);
-            return keyAddress[key]->val.second;
-        } else
-            return -1;
+        if (nodeMap[key] != nullptr) {
+            insertBegin(key);
+            return nodeMap[key]->value;
+        }
+        return -1;
+    }
+
+    void insertBegin(int& key) {
+        Doubly* node = nodeMap[key];
+        // if (node->next)
+            node->next->prev = node->prev;
+        // if (node->prev)
+            node->prev->next = node->next;
+        node->next = first->next;
+        first->next->prev = node;
+        first->next = node;
+        node->prev = first;
+    }
+
+    void DeleteEnd() {
+        Doubly* node = last->prev;
+        nodeMap[node->key] = nullptr;
+        last->prev = node->prev;
+        node->prev->next = node->next;
+        if (node != first)
+            delete node;
     }
 
     void put(int key, int value) {
-        if (keyAddress[key]) {
-            keyAddress[key]->val.second = value;
-            deleteNode(keyAddress[key]);
-            insertBegin(keyAddress[key]);
-
+        if (nodeMap[key]) {
+            nodeMap[key]->value = value;
+            insertBegin(key);
         } else {
-            if (presentSize == capacity) {
-                deleteEnd();
-                presentSize--;
+            if (currLen == maxLen) {
+                DeleteEnd();
+                currLen--;
             }
-            DoublyLinkedNode* newNode = new DoublyLinkedNode({key, value});
-            insertBegin(newNode);
-            keyAddress[key] = newNode;
-            presentSize++;
+            currLen++;
+            nodeMap[key] = new Doubly(key, value, first, first->next);
+            first->next->prev = nodeMap[key];
+            first->next = nodeMap[key];
         }
     }
 };
