@@ -15,7 +15,7 @@ public:
         spreadsheet[pos.first][pos.second] = 0;
     }
 
-    int valAt(string cell) {
+    int valAt(string& cell) {
         auto pos = parse(cell);
         return spreadsheet[pos.first][pos.second];
     }
