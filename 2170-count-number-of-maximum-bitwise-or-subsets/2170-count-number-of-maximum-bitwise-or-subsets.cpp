@@ -1,31 +1,15 @@
-class Solution
-{
-    public:
-    set<vector < int>> s;
-    void find(int &ans, vector<int> &nums, vector<int> temp, int max_or, int pos)
-    {
-        sort(temp.begin(), temp.end());
-        if (s.find(temp) == s.end())
-        {
-            s.insert(temp);
-            int curr_or = 0;
-            for (auto i: temp) curr_or |= nums[i];
-            if (curr_or == max_or) ans++;
+class Solution {
+public:
+    int countMaxOrSubsets(vector<int>& nums) {
+        int maxOr = accumulate(begin(nums), end(nums), 0, bit_or<>());
+        unordered_map<int, int> seen;
+        int orVal = 0, cnt = 1;
+        for (int i : nums) {
+            orVal |= i;
+            seen[orVal]++;
+            if (orVal == maxOr)
+                cnt += seen[orVal];
         }
-        for (int i = pos; i < nums.size(); i++)
-        {
-            temp.push_back(i);
-            find(ans, nums, temp, max_or, i + 1);
-            temp.pop_back();
-        }
-    }
-    int countMaxOrSubsets(vector<int> &nums)
-    {
-        int max_or = 0;
-        for (auto i: nums) max_or |= i;
-        int ans = 0, pos = 0;
-        vector<int> temp;
-        find(ans, nums, temp, max_or, pos);
-        return ans;
+        return cnt;
     }
 };
