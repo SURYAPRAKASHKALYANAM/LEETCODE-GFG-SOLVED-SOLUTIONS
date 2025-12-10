@@ -310,6 +310,7 @@
 | [3462-vowels-game-in-a-string](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/3462-vowels-game-in-a-string) |
 | [3476-find-minimum-operations-to-make-all-elements-divisible-by-three](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/3476-find-minimum-operations-to-make-all-elements-divisible-by-three) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
+| [3577-count-the-number-of-computer-unlocking-permutations](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/3577-count-the-number-of-computer-unlocking-permutations) |
 | [3623-count-number-of-trapezoids-i](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/3623-count-number-of-trapezoids-i) |
 | [3761-minimum-absolute-distance-between-mirror-pairs](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/3761-minimum-absolute-distance-between-mirror-pairs) |
 | [3830-find-closest-person](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/3830-find-closest-person) |
@@ -515,6 +516,7 @@
 | [3476-find-minimum-operations-to-make-all-elements-divisible-by-three](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/3476-find-minimum-operations-to-make-all-elements-divisible-by-three) |
 | [3483-alternating-groups-ii](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/3483-alternating-groups-ii) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
+| [3577-count-the-number-of-computer-unlocking-permutations](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/3577-count-the-number-of-computer-unlocking-permutations) |
 | [3583-count-special-triplets](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/3583-count-special-triplets) |
 | [3623-count-number-of-trapezoids-i](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/3623-count-number-of-trapezoids-i) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
@@ -914,6 +916,7 @@
 | [2533-bitwise-xor-of-all-pairings](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/2533-bitwise-xor-of-all-pairings) |
 | [2837-minimum-operations-to-make-the-integer-zero](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/2837-minimum-operations-to-make-the-integer-zero) |
 | [3462-vowels-game-in-a-string](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/3462-vowels-game-in-a-string) |
+| [3577-count-the-number-of-computer-unlocking-permutations](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/3577-count-the-number-of-computer-unlocking-permutations) |
 ## Monotonic Stack
 |  |
 | ------- |
@@ -1117,6 +1120,7 @@
 | ------- |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2324-find-triangular-sum-of-an-array](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/2324-find-triangular-sum-of-an-array) |
+| [3577-count-the-number-of-computer-unlocking-permutations](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/3577-count-the-number-of-computer-unlocking-permutations) |
 ## Number Theory
 |  |
 | ------- |
