@@ -32,8 +32,6 @@ public:
                     need2 = 0;
                 }
             }
-            cout << cost1 << " " << cost2 << " " << need1 << " " << need2
-                 << endl;
         }
         return ans;
     }
