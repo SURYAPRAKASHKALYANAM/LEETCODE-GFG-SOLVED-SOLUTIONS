@@ -2,7 +2,7 @@ class Solution {
 public:
     vector<int> plusOne(vector<int>& digits) {
         int len = digits.size() - 1;
-        int sum = 0, carry = 1;
+        int carry = 1;
         while (carry && len >= 0) {
             digits[len] += carry;
             carry = digits[len] / 10;
