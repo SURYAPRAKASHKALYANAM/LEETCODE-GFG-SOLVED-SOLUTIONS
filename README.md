@@ -109,6 +109,7 @@
 | [1502-construct-k-palindrome-strings](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1502-construct-k-palindrome-strings) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 | [1686-stone-game-vi](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1686-stone-game-vi) |
+| [1975-maximum-matrix-sum](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1975-maximum-matrix-sum) |
 | [2117-find-original-array-from-doubled-array](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/2117-find-original-array-from-doubled-array) |
 | [2352-design-an-atm-machine](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/2352-design-an-atm-machine) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/2456-construct-smallest-number-from-di-string) |
@@ -478,6 +479,7 @@
 | [1927-maximum-ascending-subarray-sum](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1927-maximum-ascending-subarray-sum) |
 | [1939-queries-on-number-of-points-inside-a-circle](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1939-queries-on-number-of-points-inside-a-circle) |
 | [1970-last-day-where-you-can-still-cross](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1970-last-day-where-you-can-still-cross) |
+| [1975-maximum-matrix-sum](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1975-maximum-matrix-sum) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [1995-finding-pairs-with-a-certain-sum](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1995-finding-pairs-with-a-certain-sum) |
 | [2000-minimum-speed-to-arrive-on-time](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/2000-minimum-speed-to-arrive-on-time) |
@@ -1008,6 +1010,7 @@
 | [1402-count-square-submatrices-with-all-ones](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1876-map-of-highest-peak](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1876-map-of-highest-peak) |
 | [1970-last-day-where-you-can-still-cross](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1970-last-day-where-you-can-still-cross) |
+| [1975-maximum-matrix-sum](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1975-maximum-matrix-sum) |
 | [2047-find-a-peak-element-ii](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/2047-find-a-peak-element-ii) |
 | [2145-grid-game](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/2145-grid-game) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
