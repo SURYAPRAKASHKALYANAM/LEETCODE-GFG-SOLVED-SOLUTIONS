@@ -4,8 +4,6 @@ public:
                            vector<int>& vFences) {
         hFences.emplace_back(1);
         vFences.emplace_back(1);
-        sort(hFences.begin(), hFences.end());
-        sort(vFences.begin(), vFences.end());
         hFences.emplace_back(m);
         vFences.emplace_back(n);
         int hLen = hFences.size(), vLen = vFences.size();
@@ -17,7 +15,7 @@ public:
                 if (i == j)
                     len = hFences[i] - 1;
                 else
-                    len = hFences[j] - hFences[i];
+                    len = abs(hFences[j] - hFences[i]);
                 possibleLen.insert(len);
             }
         }
@@ -27,7 +25,7 @@ public:
                 if (i == j)
                     len = vFences[i] - 1;
                 else
-                    len = vFences[j] - vFences[i];
+                    len = abs(vFences[j] - vFences[i]);
                 if (possibleLen.find(len) != possibleLen.end()) {
                     max_area = max(len * len, max_area);
                 }
