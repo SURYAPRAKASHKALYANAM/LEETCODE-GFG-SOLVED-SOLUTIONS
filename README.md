@@ -51,6 +51,7 @@
 | [1524-string-matching-in-an-array](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1524-string-matching-in-an-array) |
 | [1534-minimum-number-of-frogs-croaking](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1534-minimum-number-of-frogs-croaking) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1537-maximum-score-after-splitting-a-string) |
+| [1540-can-convert-string-in-k-moves](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1540-can-convert-string-in-k-moves) |
 | [1636-number-of-substrings-with-only-1s](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1636-number-of-substrings-with-only-1s) |
 | [1885-count-number-of-homogenous-substrings](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1885-count-number-of-homogenous-substrings) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
@@ -654,6 +655,7 @@
 | [1482-how-many-numbers-are-smaller-than-the-current-number](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1482-how-many-numbers-are-smaller-than-the-current-number) |
 | [1500-count-largest-group](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1500-count-largest-group) |
 | [1502-construct-k-palindrome-strings](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1502-construct-k-palindrome-strings) |
+| [1540-can-convert-string-in-k-moves](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1540-can-convert-string-in-k-moves) |
 | [1590-make-sum-divisible-by-p](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1590-make-sum-divisible-by-p) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1798-max-number-of-k-sum-pairs) |
 | [1830-count-good-meals](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1830-count-good-meals) |
