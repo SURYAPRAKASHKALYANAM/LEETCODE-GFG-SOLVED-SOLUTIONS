@@ -1,22 +1,18 @@
-class Solution
-{
-    public:
-        int minimumDeletions(string s)
-        {
-            vector<int> a(s.size()+1, 0);
-            int bbefore=0;
-            for (int i = 0; i < s.size(); i++)
-            {
-               if(s[i]=='a')
-               {
-                    a[i+1]=min(a[i]+1,bbefore);
-               }
-               else
-               {
-                   a[i+1]=a[i];
-                   bbefore++;
-               }
+class Solution {
+public:
+    int minimumDeletions(string s) {
+        int len = s.size();
+        // vector<int> deleteAt(len+1,0);
+        int bBefore = 0, delPrev = 0, delCurr;
+        for (int i = 0; i < len; i++) {
+            if (s[i] == 'a') {
+                delCurr = min(delPrev + 1, bBefore);
+            } else {
+                delCurr = delPrev;
+                bBefore++;
             }
-            return a[s.size()];
+            delPrev = delCurr;
         }
+        return delCurr;
+    }
 };
