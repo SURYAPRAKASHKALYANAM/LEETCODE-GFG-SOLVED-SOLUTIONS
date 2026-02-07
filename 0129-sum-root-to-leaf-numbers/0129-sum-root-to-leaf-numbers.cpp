@@ -12,7 +12,7 @@
  */
 class Solution {
 public:
-    void find(TreeNode* root, string s, int& totSum) {
+    void find(TreeNode* root, string& s, int& totSum) {
         if (!root)
             return;
         s += to_string(root->val);
@@ -21,6 +21,7 @@ public:
         }
         find(root->left, s, totSum);
         find(root->right, s, totSum);
+        s.pop_back();
     }
     int sumNumbers(TreeNode* root) {
         string s;
