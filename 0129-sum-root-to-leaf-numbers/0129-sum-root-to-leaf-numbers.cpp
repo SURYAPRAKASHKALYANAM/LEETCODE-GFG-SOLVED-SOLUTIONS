@@ -12,19 +12,19 @@
  */
 class Solution {
 public:
-    void find(TreeNode* root, string& s, int& totSum) {
+    void find(TreeNode* root, int& s, int& totSum) {
         if (!root)
             return;
-        s += to_string(root->val);
+        s = s * 10 + (root->val);
         if (!root->left && !root->right) {
-            totSum += stoi(s);
+            totSum += s;
         }
         find(root->left, s, totSum);
         find(root->right, s, totSum);
-        s.pop_back();
+        s /= 10;
     }
     int sumNumbers(TreeNode* root) {
-        string s;
+        int s = 0;
         int totSum = 0;
         find(root, s, totSum);
         return totSum;
