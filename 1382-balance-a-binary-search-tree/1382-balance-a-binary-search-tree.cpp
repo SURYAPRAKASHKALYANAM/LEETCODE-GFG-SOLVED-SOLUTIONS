@@ -1,37 +1,34 @@
 /**
- *Definition for a binary tree node.
- *struct TreeNode {
- *    int val;
- *    TreeNode * left;
- *    TreeNode * right;
- *    TreeNode() : val(0), left(nullptr), right(nullptr) {}
- *    TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
- *    TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
- *};
+ * Definition for a binary tree node.
+ * struct TreeNode {
+ *     int val;
+ *     TreeNode *left;
+ *     TreeNode *right;
+ *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left),
+ * right(right) {}
+ * };
  */
-class Solution
-{
-    public:
-        vector<TreeNode*> sorted;
-    TreeNode* balanceBST(TreeNode *root)
-    {
-        inorder(root);
-        return merge(0, sorted.size() - 1);
+class Solution {
+public:
+    void inorder(TreeNode* root, vector<int>& arr) {
+        if (!root)
+            return;
+        inorder(root->left, arr);
+        arr.push_back(root->val);
+        inorder(root->right, arr);
     }
-    void inorder(TreeNode *root)
-    {
-        if (!root) return;
-        inorder(root->left);
-        sorted.emplace_back(root);
-        inorder(root->right);
+    TreeNode* balanceBST(TreeNode* root) {
+        vector<int> arr;
+        inorder(root, arr);
+        return build(0, arr.size() - 1, arr);
     }
-    TreeNode* merge(int start, int end)
-    {
-        if (start > end) return NULL;
-        int mid = (start + end) / 2;	// start + (end-start)/2;
-        TreeNode *root = sorted[mid];
-        root->left = merge(start, mid - 1);
-        root->right = merge(mid + 1, end);
-        return root;
+    TreeNode* build(int start, int end, vector<int>& arr) {
+        if (end < start)
+            return nullptr;
+        int mid = start + ((end - start) / 2);
+        return new TreeNode(arr[mid], build(start, mid - 1, arr),
+                            build(mid + 1, end, arr));
     }
 };
