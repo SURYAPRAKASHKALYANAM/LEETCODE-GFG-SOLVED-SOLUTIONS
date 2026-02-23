@@ -5,13 +5,10 @@ public:
         if (len < k)
             return false;
         unordered_set<string> st;
-        string sub = "";
-        for (int i = 0; i < k; i++)
-            sub += s[i];
-        st.insert(sub);
-        for (int i = k; i < len; i++) {
-            sub += s[i];
-            sub.erase(sub.begin());
+        for (int i = 0; i <= (len - k); i++) {
+            string sub = "";
+            for (int j = i; j < i + k; j++)
+                sub += s[j];
             st.insert(sub);
         }
         return st.size() == (1 << k);
