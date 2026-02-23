@@ -4,7 +4,7 @@ public:
         int len = s.size();
         if (len < k)
             return false;
-        set<string> st;
+        unordered_set<string> st;
         string sub = "";
         for (int i = 0; i < k; i++)
             sub += s[i];
