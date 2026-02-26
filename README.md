@@ -49,6 +49,7 @@
 | [1324-print-words-vertically](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1324-print-words-vertically) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1371-minimum-remove-to-make-valid-parentheses](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
+| [1404-number-of-steps-to-reduce-a-number-in-binary-representation-to-one](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1404-number-of-steps-to-reduce-a-number-in-binary-representation-to-one) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1461-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1461-check-if-a-string-contains-all-binary-codes-of-size-k) |
 | [1502-construct-k-palindrome-strings](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1502-construct-k-palindrome-strings) |
@@ -941,6 +942,7 @@
 | [0389-find-the-difference](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/0389-find-the-difference) |
 | [0693-binary-number-with-alternating-bits](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/0693-binary-number-with-alternating-bits) |
 | [0800-letter-case-permutation](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/0800-letter-case-permutation) |
+| [1404-number-of-steps-to-reduce-a-number-in-binary-representation-to-one](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1404-number-of-steps-to-reduce-a-number-in-binary-representation-to-one) |
 | [1461-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1461-check-if-a-string-contains-all-binary-codes-of-size-k) |
 | [1568-pseudo-palindromic-paths-in-a-binary-tree](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1568-pseudo-palindromic-paths-in-a-binary-tree) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1993-sum-of-all-subset-xor-totals) |
@@ -1125,6 +1127,7 @@
 | [0906-walking-robot-simulation](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/0906-walking-robot-simulation) |
 | [1006-clumsy-factorial](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1006-clumsy-factorial) |
 | [1324-print-words-vertically](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1324-print-words-vertically) |
+| [1404-number-of-steps-to-reduce-a-number-in-binary-representation-to-one](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1404-number-of-steps-to-reduce-a-number-in-binary-representation-to-one) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2048-build-array-from-permutation](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/2048-build-array-from-permutation) |
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/2137-final-value-of-variable-after-performing-operations) |
