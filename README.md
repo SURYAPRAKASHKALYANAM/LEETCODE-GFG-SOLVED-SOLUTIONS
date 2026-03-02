@@ -118,6 +118,7 @@
 | [1382-balance-a-binary-search-tree](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1382-balance-a-binary-search-tree) |
 | [1407-group-the-people-given-the-group-size-they-belong-to](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1407-group-the-people-given-the-group-size-they-belong-to) |
 | [1502-construct-k-palindrome-strings](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1502-construct-k-palindrome-strings) |
+| [1536-minimum-swaps-to-arrange-a-binary-grid](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1536-minimum-swaps-to-arrange-a-binary-grid) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 | [1686-stone-game-vi](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1686-stone-game-vi) |
 | [1689-partitioning-into-minimum-number-of-deci-binary-numbers](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1689-partitioning-into-minimum-number-of-deci-binary-numbers) |
@@ -525,6 +526,7 @@
 | [1477-product-of-the-last-k-numbers](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1477-product-of-the-last-k-numbers) |
 | [1482-how-many-numbers-are-smaller-than-the-current-number](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1482-how-many-numbers-are-smaller-than-the-current-number) |
 | [1524-string-matching-in-an-array](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1524-string-matching-in-an-array) |
+| [1536-minimum-swaps-to-arrange-a-binary-grid](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1536-minimum-swaps-to-arrange-a-binary-grid) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [1590-make-sum-divisible-by-p](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1590-make-sum-divisible-by-p) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
@@ -1110,6 +1112,7 @@
 | [1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold) |
 | [1396-count-servers-that-communicate](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1396-count-servers-that-communicate) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1402-count-square-submatrices-with-all-ones) |
+| [1536-minimum-swaps-to-arrange-a-binary-grid](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1536-minimum-swaps-to-arrange-a-binary-grid) |
 | [1876-map-of-highest-peak](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1876-map-of-highest-peak) |
 | [1895-largest-magic-square](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1895-largest-magic-square) |
 | [1970-last-day-where-you-can-still-cross](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1970-last-day-where-you-can-still-cross) |
