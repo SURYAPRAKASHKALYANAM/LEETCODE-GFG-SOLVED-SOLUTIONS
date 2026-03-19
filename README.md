@@ -626,6 +626,7 @@
 | [3152-maximum-value-of-an-ordered-triplet-ii](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/3152-maximum-value-of-an-ordered-triplet-ii) |
 | [3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros) |
 | [3190-find-minimum-operations-to-make-all-elements-divisible-by-three](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/3190-find-minimum-operations-to-make-all-elements-divisible-by-three) |
+| [3212-count-submatrices-with-equal-frequency-of-x-and-y](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/main/LeetCode/Medium/3212-count-submatrices-with-equal-frequency-of-x-and-y/) | Medium |
 | [3213-count-subarrays-where-max-element-appears-at-least-k-times](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/3213-count-subarrays-where-max-element-appears-at-least-k-times) |
 | [3227-find-missing-and-repeated-values](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/3227-find-missing-and-repeated-values) |
 | [3277-find-the-number-of-ways-to-place-people-ii](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/3277-find-the-number-of-ways-to-place-people-ii) |
@@ -920,6 +921,7 @@
 | [2691-count-vowel-strings-in-ranges](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/2691-count-vowel-strings-in-ranges) |
 | [2915-count-of-interesting-subarrays](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/2915-count-of-interesting-subarrays) |
 | [3070-count-submatrices-with-top-left-element-and-sum-less-than-k](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/main/LeetCode/Medium/3070-count-submatrices-with-top-left-element-and-sum-less-than-k/) | Medium |
+| [3212-count-submatrices-with-equal-frequency-of-x-and-y](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/main/LeetCode/Medium/3212-count-submatrices-with-equal-frequency-of-x-and-y/) | Medium |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3639-zero-array-transformation-i](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/3639-zero-array-transformation-i) |
 | [3652-best-time-to-buy-and-sell-stock-using-strategy](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/3652-best-time-to-buy-and-sell-stock-using-strategy) |
@@ -1162,6 +1164,7 @@
 | [2685-first-completely-painted-row-or-column](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/2685-first-completely-painted-row-or-column) |
 | [2764-maximum-number-of-fish-in-a-grid](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/2764-maximum-number-of-fish-in-a-grid) |
 | [3070-count-submatrices-with-top-left-element-and-sum-less-than-k](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/main/LeetCode/Medium/3070-count-submatrices-with-top-left-element-and-sum-less-than-k/) | Medium |
+| [3212-count-submatrices-with-equal-frequency-of-x-and-y](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/main/LeetCode/Medium/3212-count-submatrices-with-equal-frequency-of-x-and-y/) | Medium |
 | [3227-find-missing-and-repeated-values](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/3227-find-missing-and-repeated-values) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
 | [3748-sort-matrix-by-diagonals](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/3748-sort-matrix-by-diagonals) |
