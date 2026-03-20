@@ -647,6 +647,7 @@
 | [3483-alternating-groups-ii](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/3483-alternating-groups-ii) |
 | [3531-count-covered-buildings](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/3531-count-covered-buildings) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
+| [3567-minimum-absolute-difference-in-sliding-submatrix](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/main/LeetCode/Medium/3567-minimum-absolute-difference-in-sliding-submatrix/) | Medium |
 | [3577-count-the-number-of-computer-unlocking-permutations](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/3577-count-the-number-of-computer-unlocking-permutations) |
 | [3583-count-special-triplets](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/3583-count-special-triplets) |
 | [3606-coupon-code-validator](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/3606-coupon-code-validator) |
@@ -886,6 +887,7 @@
 | [3430-count-days-without-meetings](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/3430-count-days-without-meetings) |
 | [3433-count-mentions-per-user](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/3433-count-mentions-per-user) |
 | [3531-count-covered-buildings](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/3531-count-covered-buildings) |
+| [3567-minimum-absolute-difference-in-sliding-submatrix](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/main/LeetCode/Medium/3567-minimum-absolute-difference-in-sliding-submatrix/) | Medium |
 | [3606-coupon-code-validator](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/3606-coupon-code-validator) |
 | [3657-check-if-grid-can-be-cut-into-sections](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/3657-check-if-grid-can-be-cut-into-sections) |
 | [3748-sort-matrix-by-diagonals](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/3748-sort-matrix-by-diagonals) |
@@ -1166,6 +1168,7 @@
 | [3070-count-submatrices-with-top-left-element-and-sum-less-than-k](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/main/LeetCode/Medium/3070-count-submatrices-with-top-left-element-and-sum-less-than-k/) | Medium |
 | [3212-count-submatrices-with-equal-frequency-of-x-and-y](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/main/LeetCode/Medium/3212-count-submatrices-with-equal-frequency-of-x-and-y/) | Medium |
 | [3227-find-missing-and-repeated-values](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/3227-find-missing-and-repeated-values) |
+| [3567-minimum-absolute-difference-in-sliding-submatrix](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/main/LeetCode/Medium/3567-minimum-absolute-difference-in-sliding-submatrix/) | Medium |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
 | [3748-sort-matrix-by-diagonals](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/3748-sort-matrix-by-diagonals) |
 | [3764-maximum-sum-with-at-most-k-elements](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/3764-maximum-sum-with-at-most-k-elements) |
