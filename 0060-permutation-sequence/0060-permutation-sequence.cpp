@@ -1,26 +1,27 @@
 class Solution {
-public:
-    string getPermutation(int n, int k)
-    {
-        string a="";
-        vector<int> ns;
-        int f=1;
-        for(int i=1;i<n;i++)
-        {
-            f*=i;
-            ns.emplace_back(i);
-        }
-        ns.emplace_back(n);
+   public:
+    string getPermutation(int n, int k) {
+        // Your code goes here
+        int factorial = 1;
+        string seq = "";
         k--;
-        while(true)
-        {
-            a+=to_string(ns[k/f]);
-            ns.erase(ns.begin()+k/f);
-            if(ns.size()==0) break; 
-            k=k%f;
-            f=f/ns.size();
+        for (int i = 1; i < n; i++) {
+            factorial *= i;
+            seq += to_string(i);
         }
-        return a;
-        
+        seq += to_string(n);
+        string result = "";
+        while (true) {
+            int idx = k / factorial;
+            result += seq[idx];
+            seq.erase(seq.begin() + idx);
+            if (seq.empty()) break;
+
+            k = k % factorial;
+
+            factorial /= seq.size();
+        }
+
+        return result;
     }
 };
