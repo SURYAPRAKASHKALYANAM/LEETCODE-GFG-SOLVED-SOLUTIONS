@@ -1,43 +1,46 @@
 /**
- *Definition for a binary tree node.
- *struct TreeNode {
- *    int val;
- *    TreeNode * left;
- *    TreeNode * right;
- *    TreeNode() : val(0), left(nullptr), right(nullptr) {}
- *    TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
- *    TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
- *};
+ * Definition for a binary tree node.
+ * struct TreeNode {
+ *     int val;
+ *     TreeNode *left;
+ *     TreeNode *right;
+ *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left),
+ * right(right) {}
+ * };
  */
-class NodeValue
-{
-    public:
-        int max, min, sum,maxsum;
-    NodeValue(int max, int min, int sum,int maxsum)
-    {
-        this->max = max;
-        this->min = min;
+
+class Node {
+public:
+    long long max_val, min_val;
+    int sum = 0, max_sum = 0;
+
+    Node(long long max_val, long long min_val, int sum, int max_sum)
+        : max_val(max_val), min_val(min_val) {
         this->sum = sum;
-        this->maxsum=maxsum;
+        this->max_sum = max_sum;
     }
 };
-class Solution
-{
-    public:
-        NodeValue maxsum(TreeNode *root)
-        {
-            if (!root) return NodeValue(INT_MIN, INT_MAX, 0,0);
-            auto left = maxsum(root->left);
-            auto right = maxsum(root->right);
-            int rmax=max(left.maxsum,right.maxsum);
-            if (root->val > left.max && root->val < right.min)
-            {
-                return NodeValue(max(right.max, root->val), min(left.min, root->val),root->val + left.sum + right.sum,max(rmax,root->val + left.sum + right.sum));
-            }
-            return NodeValue(INT_MAX, INT_MIN, max(left.sum, right.sum),rmax);
+
+class Solution {
+public:
+    Node isValid(TreeNode* root) {
+        if (!root)
+            return Node(LLONG_MIN, LLONG_MAX, 0, 0);
+        Node left = isValid(root->left);
+        Node right = isValid(root->right);
+        // subtree max
+        int sub_max = max(left.max_sum, right.max_sum);
+        if (root->val > left.max_val && root->val < right.min_val) {
+            // valid bst
+            return Node(max(root->val*1LL, right.max_val),
+                        min(root->val*1LL, left.min_val),
+                        root->val + left.sum + right.sum,
+                        max(root->val + left.sum + right.sum, sub_max));
         }
-    int maxSumBST(TreeNode *root)
-    {
-        return max(0, maxsum(root).maxsum);
+        // not a bst
+        return Node(LLONG_MAX, LLONG_MIN, 0, sub_max);
     }
+    int maxSumBST(TreeNode* root) { return isValid(root).max_sum; }
 };
