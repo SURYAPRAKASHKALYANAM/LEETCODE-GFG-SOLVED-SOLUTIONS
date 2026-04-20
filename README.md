@@ -270,6 +270,7 @@
 | [1568-pseudo-palindromic-paths-in-a-binary-tree](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1568-pseudo-palindromic-paths-in-a-binary-tree) |
 | [1970-last-day-where-you-can-still-cross](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1970-last-day-where-you-can-still-cross) |
 | [2092-find-all-people-with-secret](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/2092-find-all-people-with-secret) |
+| [2101-detonate-the-maximum-bombs](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/main/LeetCode/Medium/2101-detonate-the-maximum-bombs/) | Medium |
 | [2213-find-all-people-with-secret](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/2213-find-all-people-with-secret) |
 | [2438-find-closest-node-to-given-two-nodes](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/2438-find-closest-node-to-given-two-nodes) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/2493-reverse-odd-levels-of-binary-tree) |
@@ -313,6 +314,7 @@
 | [1876-map-of-highest-peak](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1876-map-of-highest-peak) |
 | [1970-last-day-where-you-can-still-cross](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1970-last-day-where-you-can-still-cross) |
 | [2092-find-all-people-with-secret](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/2092-find-all-people-with-secret) |
+| [2101-detonate-the-maximum-bombs](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/main/LeetCode/Medium/2101-detonate-the-maximum-bombs/) | Medium |
 | [2213-find-all-people-with-secret](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/2213-find-all-people-with-secret) |
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/2493-reverse-odd-levels-of-binary-tree) |
@@ -392,6 +394,7 @@
 | [1939-queries-on-number-of-points-inside-a-circle](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1939-queries-on-number-of-points-inside-a-circle) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2050-count-good-numbers](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/2050-count-good-numbers) |
+| [2101-detonate-the-maximum-bombs](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/main/LeetCode/Medium/2101-detonate-the-maximum-bombs/) | Medium |
 | [2110-number-of-smooth-descent-periods-of-a-stock](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/2110-number-of-smooth-descent-periods-of-a-stock) |
 | [2147-number-of-ways-to-divide-a-long-corridor](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/2147-number-of-ways-to-divide-a-long-corridor) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
@@ -600,6 +603,7 @@
 | [2023-design-movie-rental-system](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/2023-design-movie-rental-system) |
 | [2047-find-a-peak-element-ii](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/2047-find-a-peak-element-ii) |
 | [2048-build-array-from-permutation](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/2048-build-array-from-permutation) |
+| [2101-detonate-the-maximum-bombs](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/main/LeetCode/Medium/2101-detonate-the-maximum-bombs/) | Medium |
 | [2104-sum-of-subarray-ranges](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/2104-sum-of-subarray-ranges) |
 | [2107-find-unique-binary-string](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/2107-find-unique-binary-string) |
 | [2110-number-of-smooth-descent-periods-of-a-stock](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/2110-number-of-smooth-descent-periods-of-a-stock) |
@@ -1074,6 +1078,7 @@
 | [1266-minimum-time-visiting-all-points](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1266-minimum-time-visiting-all-points) |
 | [1395-minimum-time-visiting-all-points](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1395-minimum-time-visiting-all-points) |
 | [1939-queries-on-number-of-points-inside-a-circle](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1939-queries-on-number-of-points-inside-a-circle) |
+| [2101-detonate-the-maximum-bombs](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/main/LeetCode/Medium/2101-detonate-the-maximum-bombs/) | Medium |
 | [2367-minimum-lines-to-represent-a-line-chart](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/2367-minimum-lines-to-represent-a-line-chart) |
 | [3277-find-the-number-of-ways-to-place-people-ii](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/3277-find-the-number-of-ways-to-place-people-ii) |
 | [3278-find-the-number-of-ways-to-place-people-i](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/3278-find-the-number-of-ways-to-place-people-i) |
@@ -1472,6 +1477,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0802-find-eventual-safe-states](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/0802-find-eventual-safe-states) |
+| [2101-detonate-the-maximum-bombs](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/main/LeetCode/Medium/2101-detonate-the-maximum-bombs/) | Medium |
 | [2976-minimum-cost-to-convert-string-i](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/2976-minimum-cost-to-convert-string-i) |
 | [3600-maximize-spanning-tree-stability-with-upgrades](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/3600-maximize-spanning-tree-stability-with-upgrades) |
 | [3650-minimum-cost-path-with-edge-reversals](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/3650-minimum-cost-path-with-edge-reversals) |
