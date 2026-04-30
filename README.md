@@ -531,6 +531,7 @@
 | [0733-flood-fill](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/0733-flood-fill) |
 | [0735-asteroid-collision](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/0735-asteroid-collision) |
 | [0794-swim-in-rising-water](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/0794-swim-in-rising-water) |
+| [0795-number-of-subarrays-with-bounded-maximum](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/main/LeetCode/Medium/0795-number-of-subarrays-with-bounded-maximum/) | Medium |
 | [0797-rabbits-in-forest](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/0797-rabbits-in-forest) |
 | [0829-subdomain-visit-count](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/0829-subdomain-visit-count) |
 | [0840-magic-squares-in-grid](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/0840-magic-squares-in-grid) |
@@ -847,6 +848,7 @@
 | [0611-valid-triangle-number](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/0611-valid-triangle-number) |
 | [0680-valid-palindrome-ii](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/0680-valid-palindrome-ii) |
 | [0763-partition-labels](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/main/LeetCode/Medium/0763-partition-labels/) | Medium |
+| [0795-number-of-subarrays-with-bounded-maximum](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/main/LeetCode/Medium/0795-number-of-subarrays-with-bounded-maximum/) | Medium |
 | [0868-push-dominoes](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/0868-push-dominoes) |
 | [0875-longest-mountain-in-array](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/0875-longest-mountain-in-array) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1468-check-if-n-and-its-double-exist) |
