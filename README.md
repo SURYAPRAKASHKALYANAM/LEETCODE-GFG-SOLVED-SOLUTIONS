@@ -589,6 +589,7 @@
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
+| [1674-minimum-moves-to-make-array-complementary](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/main/LeetCode/Medium/1674-minimum-moves-to-make-array-complementary/) | Medium |
 | [1675-magnetic-force-between-two-balls](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1675-magnetic-force-between-two-balls) |
 | [1686-stone-game-vi](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1686-stone-game-vi) |
 | [1707-maximum-xor-with-an-element-from-array](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1707-maximum-xor-with-an-element-from-array) |
@@ -789,6 +790,7 @@
 | [1502-construct-k-palindrome-strings](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1502-construct-k-palindrome-strings) |
 | [1540-can-convert-string-in-k-moves](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1540-can-convert-string-in-k-moves) |
 | [1590-make-sum-divisible-by-p](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1590-make-sum-divisible-by-p) |
+| [1674-minimum-moves-to-make-array-complementary](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/main/LeetCode/Medium/1674-minimum-moves-to-make-array-complementary/) | Medium |
 | [1798-max-number-of-k-sum-pairs](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1798-max-number-of-k-sum-pairs) |
 | [1830-count-good-meals](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1830-count-good-meals) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
@@ -986,6 +988,7 @@
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [1590-make-sum-divisible-by-p](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1590-make-sum-divisible-by-p) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
+| [1674-minimum-moves-to-make-array-complementary](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/main/LeetCode/Medium/1674-minimum-moves-to-make-array-complementary/) | Medium |
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/main/LeetCode/Medium/1878-get-biggest-three-rhombus-sums-in-a-grid/) | Medium |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [1895-largest-magic-square](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1895-largest-magic-square) |
