@@ -7,10 +7,8 @@ public:
                 return p1[1] > p2[1];
             return p1[0] < p2[0];
         };
-
         sort(envelopes.begin(), envelopes.end(), comp);
         vector<int> sub;
-
         for (auto& envelope : envelopes) {
             if (sub.empty() || sub.back() < envelope[1]) {
                 sub.emplace_back(envelope[1]);
@@ -19,9 +17,6 @@ public:
                 *it = envelope[1];
             }
         }
-
-        return sub.size();
-
         return sub.size();
     }
 };
