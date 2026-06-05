@@ -17,7 +17,6 @@ public:
                 if(k==q && s.size()==0) return 0;
                 s.emplace_back(abs(k-q));
                 sort(s.begin(),s.end());
-                cout<<s.size()<<" "<<s[0];
             }
         }
         return 0; 
