@@ -49,6 +49,7 @@
 | [0944-delete-columns-to-make-sorted](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/0944-delete-columns-to-make-sorted) |
 | [0952-word-subsets](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/0952-word-subsets) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/0957-minimum-add-to-make-parentheses-valid) |
+| [1003-check-if-word-is-valid-after-substitutions](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1003-check-if-word-is-valid-after-substitutions) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 | [1143-longest-common-subsequence](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/main/LeetCode/Medium/1143-longest-common-subsequence/) | Medium |
 | [1160-letter-tile-possibilities](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1160-letter-tile-possibilities) |
@@ -1095,6 +1096,7 @@
 | [0937-online-stock-span](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/0937-online-stock-span) |
 | [0943-sum-of-subarray-minimums](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/0943-sum-of-subarray-minimums) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/0957-minimum-add-to-make-parentheses-valid) |
+| [1003-check-if-word-is-valid-after-substitutions](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1003-check-if-word-is-valid-after-substitutions) |
 | [1006-clumsy-factorial](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1006-clumsy-factorial) |
 | [1305-number-of-visible-people-in-a-queue](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1305-number-of-visible-people-in-a-queue) |
 | [1371-minimum-remove-to-make-valid-parentheses](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
