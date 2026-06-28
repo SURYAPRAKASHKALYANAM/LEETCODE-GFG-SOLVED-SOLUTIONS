@@ -17,7 +17,6 @@ public:
         }
         vector<vector<int>> ans;
         for (auto interval : intervals) {
-            cout << interval[0] << " " << interval[1] << "\n";
             if (interval[1] <= freeEnd && interval[0] >= freeStart)
                 continue;
             else if (interval[1] >= freeStart && interval[0] <= freeStart) {
