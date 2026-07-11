@@ -297,6 +297,7 @@
 | [2213-find-all-people-with-secret](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/2213-find-all-people-with-secret) |
 | [2438-find-closest-node-to-given-two-nodes](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/2438-find-closest-node-to-given-two-nodes) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/2493-reverse-odd-levels-of-binary-tree) |
+| [2685-count-the-number-of-complete-components](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/2685-count-the-number-of-complete-components) |
 | [2764-maximum-number-of-fish-in-a-grid](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/2764-maximum-number-of-fish-in-a-grid) |
 | [3558-number-of-ways-to-assign-edge-weights-i](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/3558-number-of-ways-to-assign-edge-weights-i) |
 ## Breadth-First Search
@@ -344,6 +345,7 @@
 | [2213-find-all-people-with-secret](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/2213-find-all-people-with-secret) |
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/2493-reverse-odd-levels-of-binary-tree) |
+| [2685-count-the-number-of-complete-components](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/2685-count-the-number-of-complete-components) |
 | [2764-maximum-number-of-fish-in-a-grid](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/2764-maximum-number-of-fish-in-a-grid) |
 ## Binary Tree
 |  |
@@ -1612,6 +1614,7 @@
 | ------- |
 | [0802-find-eventual-safe-states](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/0802-find-eventual-safe-states) |
 | [2101-detonate-the-maximum-bombs](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/main/LeetCode/Medium/2101-detonate-the-maximum-bombs/) | Medium |
+| [2685-count-the-number-of-complete-components](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/2685-count-the-number-of-complete-components) |
 | [2976-minimum-cost-to-convert-string-i](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/2976-minimum-cost-to-convert-string-i) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/3532-path-existence-queries-in-a-graph-i) |
 | [3600-maximize-spanning-tree-stability-with-upgrades](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/3600-maximize-spanning-tree-stability-with-upgrades) |
@@ -1619,6 +1622,7 @@
 ## Union-Find
 |  |
 | ------- |
+| [2685-count-the-number-of-complete-components](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/2685-count-the-number-of-complete-components) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/3532-path-existence-queries-in-a-graph-i) |
 | [3600-maximize-spanning-tree-stability-with-upgrades](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/3600-maximize-spanning-tree-stability-with-upgrades) |
 ## Minimum Spanning Tree
