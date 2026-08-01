@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/closest-nodes-queries-in-a-binary-search-tree/">2476. Closest Nodes Queries in a Binary Search Tree</a></h2><h3>Medium</h3><hr><div><p>You are given the <code>root</code> of a <strong>binary search tree </strong>and an array <code>queries</code> of size <code>n</code> consisting of positive integers.</p>
+<h2><a href="https://leetcode.com/problems/closest-nodes-queries-in-a-binary-search-tree">2567. Closest Nodes Queries in a Binary Search Tree</a></h2><h3>Medium</h3><hr><p>You are given the <code>root</code> of a <strong>binary search tree </strong>and an array <code>queries</code> of size <code>n</code> consisting of positive integers.</p>
 
 <p>Find a <strong>2D</strong> array <code>answer</code> of size <code>n</code> where <code>answer[i] = [min<sub>i</sub>, max<sub>i</sub>]</code>:</p>
 
@@ -11,8 +11,9 @@
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://assets.leetcode.com/uploads/2022/09/28/bstreeedrawioo.png" style="width: 261px; height: 281px;">
-<pre><strong>Input:</strong> root = [6,2,13,1,4,9,15,null,null,null,null,null,null,14], queries = [2,5,16]
+<img alt="" src="https://assets.leetcode.com/uploads/2022/09/28/bstreeedrawioo.png" style="width: 261px; height: 281px;" />
+<pre>
+<strong>Input:</strong> root = [6,2,13,1,4,9,15,null,null,null,null,null,null,14], queries = [2,5,16]
 <strong>Output:</strong> [[2,2],[4,6],[15,-1]]
 <strong>Explanation:</strong> We answer the queries in the following way:
 - The largest number that is smaller or equal than 2 in the tree is 2, and the smallest number that is greater or equal than 2 is still 2. So the answer for the first query is [2,2].
@@ -21,8 +22,9 @@
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://assets.leetcode.com/uploads/2022/09/28/bstttreee.png" style="width: 101px; height: 121px;">
-<pre><strong>Input:</strong> root = [4,null,9], queries = [3]
+<img alt="" src="https://assets.leetcode.com/uploads/2022/09/28/bstttreee.png" style="width: 101px; height: 121px;" />
+<pre>
+<strong>Input:</strong> root = [4,null,9], queries = [3]
 <strong>Output:</strong> [[-1,4]]
 <strong>Explanation:</strong> The largest number that is smaller or equal to 3 in the tree does not exist, and the smallest number that is greater or equal to 3 is 4. So the answer for the query is [-1,4].
 </pre>
@@ -37,4 +39,3 @@
 	<li><code>1 &lt;= n &lt;= 10<sup>5</sup></code></li>
 	<li><code>1 &lt;= queries[i] &lt;= 10<sup>6</sup></code></li>
 </ul>
-</div>
