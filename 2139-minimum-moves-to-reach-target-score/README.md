@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/minimum-moves-to-reach-target-score/">2139. Minimum Moves to Reach Target Score</a></h2><h3>Medium</h3><hr><div><p>You are playing a game with integers. You start with the integer <code>1</code> and you want to reach the integer <code>target</code>.</p>
+<h2><a href="https://leetcode.com/problems/minimum-moves-to-reach-target-score">1303. Minimum Moves to Reach Target Score</a></h2><h3>Medium</h3><hr><p>You are playing a game with integers. You start with the integer <code>1</code> and you want to reach the integer <code>target</code>.</p>
 
 <p>In one move, you can either:</p>
 
@@ -14,14 +14,16 @@
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
 
-<pre><strong>Input:</strong> target = 5, maxDoubles = 0
+<pre>
+<strong>Input:</strong> target = 5, maxDoubles = 0
 <strong>Output:</strong> 4
 <strong>Explanation:</strong> Keep incrementing by 1 until you reach target.
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
 
-<pre><strong>Input:</strong> target = 19, maxDoubles = 2
+<pre>
+<strong>Input:</strong> target = 19, maxDoubles = 2
 <strong>Output:</strong> 7
 <strong>Explanation:</strong> Initially, x = 1
 Increment 3 times so x = 4
@@ -33,7 +35,8 @@ Increment once so x = 19
 
 <p><strong class="example">Example 3:</strong></p>
 
-<pre><strong>Input:</strong> target = 10, maxDoubles = 4
+<pre>
+<strong>Input:</strong> target = 10, maxDoubles = 4
 <strong>Output:</strong> 4
 <strong>Explanation:</strong><b> </b>Initially, x = 1
 Increment once so x = 2
@@ -49,4 +52,3 @@ Double again so x = 10
 	<li><code>1 &lt;= target &lt;= 10<sup>9</sup></code></li>
 	<li><code>0 &lt;= maxDoubles &lt;= 100</code></li>
 </ul>
-</div>
