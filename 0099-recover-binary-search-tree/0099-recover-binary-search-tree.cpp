@@ -13,7 +13,7 @@ class Solution
 {
     public:
 
-    TreeNode *first, *second, *prev, *middle;
+    TreeNode *first, *second, *prev;
     void inorder(TreeNode *root)
     {
         if (!root) return;
@@ -23,7 +23,7 @@ class Solution
             if (!first)
             {
                 first = prev;
-                middle = root;
+                second = root;
             }
             else second = root;
         }
@@ -32,9 +32,9 @@ class Solution
     }
     void recoverTree(TreeNode *root)
     {
-        first = second = middle = NULL;
+        first = second = NULL;
         inorder(root);
-        if (first && second) swap(first->val, second->val);
-        else if (first && middle) swap(first->val, middle->val);
+        swap(first->val, second->val);
+        // else if (first && middle) swap(first->val, middle->val);
     }
 };
