@@ -790,6 +790,7 @@
 | [3075-maximize-happiness-of-selected-children](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/3075-maximize-happiness-of-selected-children) |
 | [3093-longest-common-suffix-queries](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/3093-longest-common-suffix-queries) |
 | [3152-maximum-value-of-an-ordered-triplet-ii](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/3152-maximum-value-of-an-ordered-triplet-ii) |
+| [3169-count-days-without-meetings](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/main/LeetCode/Medium/3169-count-days-without-meetings/) | Medium |
 | [3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros) |
 | [3190-find-minimum-operations-to-make-all-elements-divisible-by-three](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/3190-find-minimum-operations-to-make-all-elements-divisible-by-three) |
 | [3208-alternating-groups-ii](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/main/LeetCode/Medium/3208-alternating-groups-ii/) | Medium |
@@ -1124,6 +1125,7 @@
 | [2888-minimum-index-of-a-valid-split](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/2888-minimum-index-of-a-valid-split) |
 | [2933-high-access-employees](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/2933-high-access-employees) |
 | [3075-maximize-happiness-of-selected-children](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/3075-maximize-happiness-of-selected-children) |
+| [3169-count-days-without-meetings](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/main/LeetCode/Medium/3169-count-days-without-meetings/) | Medium |
 | [3277-find-the-number-of-ways-to-place-people-ii](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/3277-find-the-number-of-ways-to-place-people-ii) |
 | [3278-find-the-number-of-ways-to-place-people-i](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/3278-find-the-number-of-ways-to-place-people-i) |
 | [3387-minimum-operations-to-make-median-of-array-equal-to-k](https://github.com/SURYAPRAKASHKALYANAM/LEETCODE-GFG-SOLVED-SOLUTIONS/tree/master/3387-minimum-operations-to-make-median-of-array-equal-to-k) |
