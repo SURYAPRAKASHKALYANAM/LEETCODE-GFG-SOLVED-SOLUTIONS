@@ -2,14 +2,13 @@ class Solution {
 public:
     vector<int> countServers(int n, vector<vector<int>>& logs, int x,
                              vector<int>& queries) {
-        sort(logs.begin(), logs.end(),
-             [](const std::vector<int>& a, const std::vector<int>& b) {
-                 if (a[1] != b[1]) {
-                     return a[1] < b[1];
-                 }
-                 return a[0] < b[0];
-             });
-        logs.erase(std::unique(logs.begin(), logs.end()), logs.end());
+        sort(logs.begin(), logs.end(), [](vector<int>& a, vector<int>& b) {
+            if (a[1] != b[1]) {
+                return a[1] < b[1];
+            }
+            return a[0] < b[0];
+        });
+        logs.erase(unique(logs.begin(), logs.end()), logs.end());
         unordered_map<int, int> qAns;
         unordered_map<int, vector<int>> qIdx;
         int qLen = queries.size();
