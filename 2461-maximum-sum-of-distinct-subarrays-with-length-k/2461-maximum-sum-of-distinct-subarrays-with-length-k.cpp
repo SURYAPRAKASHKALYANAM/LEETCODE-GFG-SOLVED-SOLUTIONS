@@ -3,25 +3,25 @@ class Solution
     public:
         long long maximumSubarraySum(vector<int> &nums, int k)
         {
-            long long c = 0, sum = 0, maxi = 0;
-            map<int, int> m;
-            for (int i = 0; i < k; i++)
+            long long max_sum = 0, sum = 0;
+            unordered_map<int, int> m;
+            int curr = 0, start = 0, end = 0, n = nums.size();
+            for (; end < n; end++)
             {
-                if (!m[nums[i]]) c++;
-                m[nums[i]]++;
-                sum += nums[i];
+                m[nums[end]]++;
+                if (m[nums[end]] == 1) curr++, sum += nums[end];
+                if (end - start == k)
+                {
+                    if (m[nums[start]] == 1)
+                    {
+                        m[nums[start]]--;
+                        curr--;
+                        sum -= nums[start++];
+                    }
+                    else m[nums[start]]--, start++;
+                }
+                if (curr == k) max_sum = max(max_sum, sum);
             }
-            if (c == k) maxi = max(maxi, sum);
-            for (int i = 1; i + k <= nums.size(); i++)
-            {
-                m[nums[i - 1]]--;
-                if (!m[nums[i - 1]]) c--;
-                sum -= nums[i - 1];
-                if (!m[nums[i + k - 1]]) c++;
-                m[nums[i + k - 1]]++;
-                sum += nums[i + k - 1];
-                if (c == k) maxi = max(maxi, sum);
-            }
-            return maxi;
+            return max_sum;
         }
 };
